@@ -15,7 +15,7 @@ AI Agents (like **Claude Code**, **Gemini**, **Cursor**) are smart, but they lac
 
 ## ⚡️ Quick Start: The "Starter Packs"
 
-Don't panic about the 250+ skills. You don't need them all at once.
+Don't panic about the 253+ skills. You don't need them all at once.
 We have curated **Starter Packs** to get you running immediately.
 
 ### 1. Install the Repo
