@@ -7,30 +7,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [4.8.0] - 2026-02-04 - "Computer Vision & Angular"
-
-> Major SOTA Computer Vision update and complete Angular 20+ skill suite.
-
-### Added
-
-- **New Skill**: `computer-vision-expert` – Updated foundational skill for 2026 SOTA Computer Vision (YOLO26, SAM 3, VLMs).
-- **New Suite**: `angular` – 4 comprehensive skills for Angular v20+ development:
-  - `angular` – Core patterns (Signals, Standalone, Zoneless).
-  - `angular-best-practices` – Performance and optimization.
-  - `angular-state-management` – Signal-based state management (NgRx, ComponentStore).
-  - `angular-ui-patterns` – UI/UX engineering patterns.
-
-### Registry
-
-- **Total Skills**: 631 (from 626). Catalog regenerated.
-
-### Credits
-
-- [@PabloSMD](https://github.com/PabloSMD) – computer-vision-expert (PR #58)
-- [@chauey](https://github.com/chauey) – angular suite (PR #60)
-
----
-
 ## [4.7.0] - 2026-02-03 - "Installer Fix & OpenCode Docs"
 
 > Critical installer fix for Windows and OpenCode documentation completion.
