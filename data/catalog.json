@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-02-11T15:29:36.792Z",
-  "total": 715,
+  "generatedAt": "2026-02-11T18:08:29.123Z",
+  "total": 567,
   "skills": [
     {
       "id": "3d-web-experience",
@@ -78,56 +78,6 @@
         "identify"
       ],
       "path": "skills\\accessibility-compliance-accessibility-audit\\SKILL.md"
-    },
-    {
-      "id": "active-directory-attacks",
-      "name": "Active Directory Attacks",
-      "description": "This skill should be used when the user asks to \"attack Active Directory\", \"exploit AD\", \"Kerberoasting\", \"DCSync\", \"pass-the-hash\", \"BloodHound enumeration\", \"Golden Ticket\", \"Silver Ticket\", \"AS-REP roasting\", \"NTLM relay\", or needs guidance on Windows domain penetration testing.",
-      "category": "security",
-      "tags": [
-        "active",
-        "directory",
-        "attacks"
-      ],
-      "triggers": [
-        "active",
-        "directory",
-        "attacks",
-        "skill",
-        "should",
-        "used",
-        "user",
-        "asks",
-        "attack",
-        "exploit",
-        "ad",
-        "kerberoasting"
-      ],
-      "path": "skills\\active-directory-attacks\\SKILL.md"
-    },
-    {
-      "id": "activecampaign-automation",
-      "name": "activecampaign-automation",
-      "description": "Automate ActiveCampaign tasks via Rube MCP (Composio): manage contacts, tags, list subscriptions, automation enrollment, and tasks. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "activecampaign"
-      ],
-      "triggers": [
-        "activecampaign",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "contacts",
-        "tags",
-        "list",
-        "subscriptions"
-      ],
-      "path": "skills\\activecampaign-automation\\SKILL.md"
     },
     {
       "id": "address-github-comments",
@@ -457,30 +407,6 @@
       "path": "skills\\airflow-dag-patterns\\SKILL.md"
     },
     {
-      "id": "airtable-automation",
-      "name": "airtable-automation",
-      "description": "Automate Airtable tasks via Rube MCP (Composio): records, bases, tables, fields, views. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "airtable"
-      ],
-      "triggers": [
-        "airtable",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "records",
-        "bases",
-        "tables",
-        "fields"
-      ],
-      "path": "skills\\airtable-automation\\SKILL.md"
-    },
-    {
       "id": "algolia-search",
       "name": "algolia-search",
       "description": "Expert patterns for Algolia search implementation, indexing strategies, React InstantSearch, and relevance tuning Use when: adding search to, algolia, instantsearch, search api, search functionality.",
@@ -527,30 +453,6 @@
         "request"
       ],
       "path": "skills\\algorithmic-art\\SKILL.md"
-    },
-    {
-      "id": "amplitude-automation",
-      "name": "amplitude-automation",
-      "description": "Automate Amplitude tasks via Rube MCP (Composio): events, user activity, cohorts, user identification. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "amplitude"
-      ],
-      "triggers": [
-        "amplitude",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "events",
-        "user",
-        "activity",
-        "cohorts"
-      ],
-      "path": "skills\\amplitude-automation\\SKILL.md"
     },
     {
       "id": "analytics-tracking",
@@ -600,107 +502,6 @@
         "reactive"
       ],
       "path": "skills\\angular\\SKILL.md"
-    },
-    {
-      "id": "angular-best-practices",
-      "name": "angular-best-practices",
-      "description": "Angular performance optimization and best practices guide. Use when writing, reviewing, or refactoring Angular code for optimal performance, bundle size, and rendering efficiency.",
-      "category": "general",
-      "tags": [
-        "angular",
-        "best",
-        "practices"
-      ],
-      "triggers": [
-        "angular",
-        "best",
-        "practices",
-        "performance",
-        "optimization",
-        "writing",
-        "reviewing",
-        "refactoring",
-        "code",
-        "optimal",
-        "bundle",
-        "size"
-      ],
-      "path": "skills\\angular-best-practices\\SKILL.md"
-    },
-    {
-      "id": "angular-migration",
-      "name": "angular-migration",
-      "description": "Migrate from AngularJS to Angular using hybrid mode, incremental component rewriting, and dependency injection updates. Use when upgrading AngularJS applications, planning framework migrations, or modernizing legacy Angular code.",
-      "category": "general",
-      "tags": [
-        "angular",
-        "migration"
-      ],
-      "triggers": [
-        "angular",
-        "migration",
-        "migrate",
-        "angularjs",
-        "hybrid",
-        "mode",
-        "incremental",
-        "component",
-        "rewriting",
-        "dependency",
-        "injection",
-        "updates"
-      ],
-      "path": "skills\\angular-migration\\SKILL.md"
-    },
-    {
-      "id": "angular-state-management",
-      "name": "angular-state-management",
-      "description": "Master modern Angular state management with Signals, NgRx, and RxJS. Use when setting up global state, managing component stores, choosing between state solutions, or migrating from legacy patterns.",
-      "category": "architecture",
-      "tags": [
-        "angular",
-        "state"
-      ],
-      "triggers": [
-        "angular",
-        "state",
-        "signals",
-        "ngrx",
-        "rxjs",
-        "setting",
-        "up",
-        "global",
-        "managing",
-        "component",
-        "stores",
-        "choosing"
-      ],
-      "path": "skills\\angular-state-management\\SKILL.md"
-    },
-    {
-      "id": "angular-ui-patterns",
-      "name": "angular-ui-patterns",
-      "description": "Modern Angular UI patterns for loading states, error handling, and data display. Use when building UI components, handling async data, or managing component states.",
-      "category": "data-ai",
-      "tags": [
-        "angular",
-        "ui"
-      ],
-      "triggers": [
-        "angular",
-        "ui",
-        "loading",
-        "states",
-        "error",
-        "handling",
-        "data",
-        "display",
-        "building",
-        "components",
-        "async",
-        "managing"
-      ],
-      "path": "skills\\angular-ui-patterns\\SKILL.md"
     },
     {
       "id": "anti-reversing-techniques",
@@ -826,33 +627,6 @@
         "sdks"
       ],
       "path": "skills\\api-documenter\\SKILL.md"
-    },
-    {
-      "id": "api-fuzzing-bug-bounty",
-      "name": "API Fuzzing for Bug Bounty",
-      "description": "This skill should be used when the user asks to \"test API security\", \"fuzz APIs\", \"find IDOR vulnerabilities\", \"test REST API\", \"test GraphQL\", \"API penetration testing\", \"bug bounty API testing\", or needs guidance on API security assessment techniques.",
-      "category": "security",
-      "tags": [
-        "api",
-        "fuzzing",
-        "bug",
-        "bounty"
-      ],
-      "triggers": [
-        "api",
-        "fuzzing",
-        "bug",
-        "bounty",
-        "skill",
-        "should",
-        "used",
-        "user",
-        "asks",
-        "test",
-        "security",
-        "fuzz"
-      ],
-      "path": "skills\\api-fuzzing-bug-bounty\\SKILL.md"
     },
     {
       "id": "api-patterns",
@@ -1154,30 +928,6 @@
       "path": "skills\\arm-cortex-expert\\SKILL.md"
     },
     {
-      "id": "asana-automation",
-      "name": "asana-automation",
-      "description": "Automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "asana"
-      ],
-      "triggers": [
-        "asana",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "sections",
-        "teams",
-        "workspaces",
-        "always"
-      ],
-      "path": "skills\\asana-automation\\SKILL.md"
-    },
-    {
       "id": "async-python-patterns",
       "name": "async-python-patterns",
       "description": "Master Python asyncio, concurrent programming, and async/await patterns for high-performance applications. Use when building async APIs, concurrent systems, or I/O-bound applications requiring non-blocking operations.",
@@ -1255,30 +1005,6 @@
         "intelligent"
       ],
       "path": "skills\\audio-transcriber\\SKILL.md"
-    },
-    {
-      "id": "auth-implementation-patterns",
-      "name": "auth-implementation-patterns",
-      "description": "Master authentication and authorization patterns including JWT, OAuth2, session management, and RBAC to build secure, scalable access control systems. Use when implementing auth systems, securing APIs, or debugging security issues.",
-      "category": "security",
-      "tags": [
-        "auth"
-      ],
-      "triggers": [
-        "auth",
-        "authentication",
-        "authorization",
-        "including",
-        "jwt",
-        "oauth2",
-        "session",
-        "rbac",
-        "secure",
-        "scalable",
-        "access",
-        "control"
-      ],
-      "path": "skills\\auth-implementation-patterns\\SKILL.md"
     },
     {
       "id": "automate-whatsapp",
@@ -1427,76 +1153,6 @@
       "path": "skills\\avalonia-zafiro-development\\SKILL.md"
     },
     {
-      "id": "aws-penetration-testing",
-      "name": "AWS Penetration Testing",
-      "description": "This skill should be used when the user asks to \"pentest AWS\", \"test AWS security\", \"enumerate IAM\", \"exploit cloud infrastructure\", \"AWS privilege escalation\", \"S3 bucket testing\", \"metadata SSRF\", \"Lambda exploitation\", or needs guidance on Amazon Web Services security assessment.",
-      "category": "security",
-      "tags": [
-        "aws",
-        "penetration"
-      ],
-      "triggers": [
-        "aws",
-        "penetration",
-        "testing",
-        "skill",
-        "should",
-        "used",
-        "user",
-        "asks",
-        "pentest",
-        "test",
-        "security",
-        "enumerate"
-      ],
-      "path": "skills\\aws-penetration-testing\\SKILL.md"
-    },
-    {
-      "id": "aws-serverless",
-      "name": "aws-serverless",
-      "description": "Specialized skill for building production-ready serverless applications on AWS. Covers Lambda functions, API Gateway, DynamoDB, SQS/SNS event-driven patterns, SAM/CDK deployment, and cold start optimization.",
-      "category": "infrastructure",
-      "tags": [
-        "aws",
-        "serverless"
-      ],
-      "triggers": [
-        "aws",
-        "serverless",
-        "specialized",
-        "skill",
-        "building",
-        "applications",
-        "covers",
-        "lambda",
-        "functions",
-        "api",
-        "gateway",
-        "dynamodb"
-      ],
-      "path": "skills\\aws-serverless\\SKILL.md"
-    },
-    {
-      "id": "aws-skills",
-      "name": "aws-skills",
-      "description": "AWS development with infrastructure automation and cloud architecture patterns",
-      "category": "infrastructure",
-      "tags": [
-        "aws",
-        "skills"
-      ],
-      "triggers": [
-        "aws",
-        "skills",
-        "development",
-        "infrastructure",
-        "automation",
-        "cloud",
-        "architecture"
-      ],
-      "path": "skills\\aws-skills\\SKILL.md"
-    },
-    {
       "id": "azure-functions",
       "name": "azure-functions",
       "description": "Expert patterns for Azure Functions development including isolated worker model, Durable Functions orchestration, cold start optimization, and production patterns. Covers .NET, Python, and Node.js programming models. Use when: azure function, azure functions, durable functions, azure serverless, function app.",
@@ -1595,32 +1251,6 @@
       "path": "skills\\backend-development-feature-development\\SKILL.md"
     },
     {
-      "id": "backend-security-coder",
-      "name": "backend-security-coder",
-      "description": "Expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews.",
-      "category": "security",
-      "tags": [
-        "backend",
-        "security",
-        "coder"
-      ],
-      "triggers": [
-        "backend",
-        "security",
-        "coder",
-        "secure",
-        "coding",
-        "specializing",
-        "input",
-        "validation",
-        "authentication",
-        "api",
-        "proactively",
-        "implementations"
-      ],
-      "path": "skills\\backend-security-coder\\SKILL.md"
-    },
-    {
       "id": "backtesting-frameworks",
       "name": "backtesting-frameworks",
       "description": "Build robust backtesting systems for trading strategies with proper handling of look-ahead bias, survivorship bias, and transaction costs. Use when developing trading algorithms, validating strategies, or building backtesting infrastructure.",
@@ -1644,127 +1274,6 @@
         "costs"
       ],
       "path": "skills\\backtesting-frameworks\\SKILL.md"
-    },
-    {
-      "id": "bamboohr-automation",
-      "name": "bamboohr-automation",
-      "description": "Automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "bamboohr"
-      ],
-      "triggers": [
-        "bamboohr",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "employees",
-        "time",
-        "off",
-        "benefits"
-      ],
-      "path": "skills\\bamboohr-automation\\SKILL.md"
-    },
-    {
-      "id": "basecamp-automation",
-      "name": "basecamp-automation",
-      "description": "Automate Basecamp project management, to-dos, messages, people, and to-do list organization via Rube MCP (Composio). Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "basecamp"
-      ],
-      "triggers": [
-        "basecamp",
-        "automation",
-        "automate",
-        "dos",
-        "messages",
-        "people",
-        "do",
-        "list",
-        "organization",
-        "via",
-        "rube",
-        "mcp"
-      ],
-      "path": "skills\\basecamp-automation\\SKILL.md"
-    },
-    {
-      "id": "bash-defensive-patterns",
-      "name": "bash-defensive-patterns",
-      "description": "Master defensive Bash programming techniques for production-grade scripts. Use when writing robust shell scripts, CI/CD pipelines, or system utilities requiring fault tolerance and safety.",
-      "category": "infrastructure",
-      "tags": [
-        "bash",
-        "defensive"
-      ],
-      "triggers": [
-        "bash",
-        "defensive",
-        "programming",
-        "techniques",
-        "grade",
-        "scripts",
-        "writing",
-        "robust",
-        "shell",
-        "ci",
-        "cd",
-        "pipelines"
-      ],
-      "path": "skills\\bash-defensive-patterns\\SKILL.md"
-    },
-    {
-      "id": "bash-linux",
-      "name": "bash-linux",
-      "description": "Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems.",
-      "category": "architecture",
-      "tags": [
-        "bash",
-        "linux"
-      ],
-      "triggers": [
-        "bash",
-        "linux",
-        "terminal",
-        "critical",
-        "commands",
-        "piping",
-        "error",
-        "handling",
-        "scripting",
-        "working",
-        "macos"
-      ],
-      "path": "skills\\bash-linux\\SKILL.md"
-    },
-    {
-      "id": "bash-pro",
-      "name": "bash-pro",
-      "description": "Master of defensive Bash scripting for production automation, CI/CD pipelines, and system utilities. Expert in safe, portable, and testable shell scripts.",
-      "category": "infrastructure",
-      "tags": [
-        "bash"
-      ],
-      "triggers": [
-        "bash",
-        "pro",
-        "defensive",
-        "scripting",
-        "automation",
-        "ci",
-        "cd",
-        "pipelines",
-        "utilities",
-        "safe",
-        "portable",
-        "testable"
-      ],
-      "path": "skills\\bash-pro\\SKILL.md"
     },
     {
       "id": "bats-testing-patterns",
@@ -1817,31 +1326,6 @@
       "path": "skills\\bazel-build-optimization\\SKILL.md"
     },
     {
-      "id": "beautiful-prose",
-      "name": "beautiful-prose",
-      "description": "Hard-edged writing style contract for timeless, forceful English prose without AI tics",
-      "category": "data-ai",
-      "tags": [
-        "beautiful",
-        "prose"
-      ],
-      "triggers": [
-        "beautiful",
-        "prose",
-        "hard",
-        "edged",
-        "writing",
-        "style",
-        "contract",
-        "timeless",
-        "forceful",
-        "english",
-        "without",
-        "ai"
-      ],
-      "path": "skills\\beautiful-prose\\SKILL.md"
-    },
-    {
       "id": "behavioral-modes",
       "name": "behavioral-modes",
       "description": "AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type.",
@@ -1867,30 +1351,6 @@
       "path": "skills\\behavioral-modes\\SKILL.md"
     },
     {
-      "id": "billing-automation",
-      "name": "billing-automation",
-      "description": "Build automated billing systems for recurring payments, invoicing, subscription lifecycle, and dunning management. Use when implementing subscription billing, automating invoicing, or managing recurring payment systems.",
-      "category": "workflow",
-      "tags": [
-        "billing"
-      ],
-      "triggers": [
-        "billing",
-        "automation",
-        "automated",
-        "recurring",
-        "payments",
-        "invoicing",
-        "subscription",
-        "lifecycle",
-        "dunning",
-        "implementing",
-        "automating",
-        "managing"
-      ],
-      "path": "skills\\billing-automation\\SKILL.md"
-    },
-    {
       "id": "binary-analysis-patterns",
       "name": "binary-analysis-patterns",
       "description": "Master binary analysis patterns including disassembly, decompilation, control flow analysis, and code pattern recognition. Use when analyzing executables, understanding compiled code, or performing static analysis on binaries.",
@@ -1913,30 +1373,6 @@
         "understanding"
       ],
       "path": "skills\\binary-analysis-patterns\\SKILL.md"
-    },
-    {
-      "id": "bitbucket-automation",
-      "name": "bitbucket-automation",
-      "description": "Automate Bitbucket repositories, pull requests, branches, issues, and workspace management via Rube MCP (Composio). Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "bitbucket"
-      ],
-      "triggers": [
-        "bitbucket",
-        "automation",
-        "automate",
-        "repositories",
-        "pull",
-        "requests",
-        "branches",
-        "issues",
-        "workspace",
-        "via",
-        "rube",
-        "mcp"
-      ],
-      "path": "skills\\bitbucket-automation\\SKILL.md"
     },
     {
       "id": "blockchain-developer",
@@ -1985,30 +1421,6 @@
         "explicitly"
       ],
       "path": "skills\\blockrun\\SKILL.md"
-    },
-    {
-      "id": "box-automation",
-      "name": "box-automation",
-      "description": "Automate Box cloud storage operations including file upload/download, search, folder management, sharing, collaborations, and metadata queries via Rube MCP (Composio). Always search tools first for current schemas.",
-      "category": "infrastructure",
-      "tags": [
-        "box"
-      ],
-      "triggers": [
-        "box",
-        "automation",
-        "automate",
-        "cloud",
-        "storage",
-        "operations",
-        "including",
-        "file",
-        "upload",
-        "download",
-        "search",
-        "folder"
-      ],
-      "path": "skills\\box-automation\\SKILL.md"
     },
     {
       "id": "brainstorming",
@@ -2085,55 +1497,6 @@
         "may"
       ],
       "path": "skills\\brand-guidelines-community\\SKILL.md"
-    },
-    {
-      "id": "brevo-automation",
-      "name": "brevo-automation",
-      "description": "Automate Brevo (Sendinblue) tasks via Rube MCP (Composio): manage email campaigns, create/edit templates, track senders, and monitor campaign performance. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "brevo"
-      ],
-      "triggers": [
-        "brevo",
-        "automation",
-        "automate",
-        "sendinblue",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "email",
-        "campaigns",
-        "edit"
-      ],
-      "path": "skills\\brevo-automation\\SKILL.md"
-    },
-    {
-      "id": "broken-authentication",
-      "name": "Broken Authentication Testing",
-      "description": "This skill should be used when the user asks to \"test for broken authentication vulnerabilities\", \"assess session management security\", \"perform credential stuffing tests\", \"evaluate password policies\", \"test for session fixation\", or \"identify authentication bypass flaws\". It provides comprehensive techniques for identifying authentication and session management weaknesses in web applications.",
-      "category": "security",
-      "tags": [
-        "broken",
-        "authentication"
-      ],
-      "triggers": [
-        "broken",
-        "authentication",
-        "testing",
-        "skill",
-        "should",
-        "used",
-        "user",
-        "asks",
-        "test",
-        "vulnerabilities",
-        "assess",
-        "session"
-      ],
-      "path": "skills\\broken-authentication\\SKILL.md"
     },
     {
       "id": "browser-automation",
@@ -2456,79 +1819,6 @@
       "path": "skills\\c4-context\\SKILL.md"
     },
     {
-      "id": "cal-com-automation",
-      "name": "cal-com-automation",
-      "description": "Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "cal",
-        "com"
-      ],
-      "triggers": [
-        "cal",
-        "com",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "bookings",
-        "check",
-        "availability"
-      ],
-      "path": "skills\\cal-com-automation\\SKILL.md"
-    },
-    {
-      "id": "calendly-automation",
-      "name": "calendly-automation",
-      "description": "Automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composio). Always search tools first for current schemas.",
-      "category": "architecture",
-      "tags": [
-        "calendly"
-      ],
-      "triggers": [
-        "calendly",
-        "automation",
-        "automate",
-        "scheduling",
-        "event",
-        "invitee",
-        "tracking",
-        "availability",
-        "checks",
-        "organization",
-        "administration",
-        "via"
-      ],
-      "path": "skills\\calendly-automation\\SKILL.md"
-    },
-    {
-      "id": "canva-automation",
-      "name": "canva-automation",
-      "description": "Automate Canva tasks via Rube MCP (Composio): designs, exports, folders, brand templates, autofill. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "canva"
-      ],
-      "triggers": [
-        "canva",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "designs",
-        "exports",
-        "folders",
-        "brand"
-      ],
-      "path": "skills\\canva-automation\\SKILL.md"
-    },
-    {
       "id": "canvas-design",
       "name": "canvas-design",
       "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
@@ -2632,29 +1922,6 @@
       "path": "skills\\cc-skill-coding-standards\\SKILL.md"
     },
     {
-      "id": "cc-skill-continuous-learning",
-      "name": "cc-skill-continuous-learning",
-      "description": "Development skill from everything-claude-code",
-      "category": "general",
-      "tags": [
-        "cc",
-        "skill",
-        "continuous",
-        "learning"
-      ],
-      "triggers": [
-        "cc",
-        "skill",
-        "continuous",
-        "learning",
-        "development",
-        "everything",
-        "claude",
-        "code"
-      ],
-      "path": "skills\\cc-skill-continuous-learning\\SKILL.md"
-    },
-    {
       "id": "cc-skill-frontend-patterns",
       "name": "frontend-patterns",
       "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.",
@@ -2725,53 +1992,6 @@
       "path": "skills\\cc-skill-security-review\\SKILL.md"
     },
     {
-      "id": "cc-skill-strategic-compact",
-      "name": "cc-skill-strategic-compact",
-      "description": "Development skill from everything-claude-code",
-      "category": "general",
-      "tags": [
-        "cc",
-        "skill",
-        "strategic",
-        "compact"
-      ],
-      "triggers": [
-        "cc",
-        "skill",
-        "strategic",
-        "compact",
-        "development",
-        "everything",
-        "claude",
-        "code"
-      ],
-      "path": "skills\\cc-skill-strategic-compact\\SKILL.md"
-    },
-    {
-      "id": "changelog-automation",
-      "name": "changelog-automation",
-      "description": "Automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up release workflows, generating release notes, or standardizing commit conventions.",
-      "category": "workflow",
-      "tags": [
-        "changelog"
-      ],
-      "triggers": [
-        "changelog",
-        "automation",
-        "automate",
-        "generation",
-        "commits",
-        "prs",
-        "releases",
-        "following",
-        "keep",
-        "format",
-        "setting",
-        "up"
-      ],
-      "path": "skills\\changelog-automation\\SKILL.md"
-    },
-    {
       "id": "cicd-automation-workflow-automate",
       "name": "cicd-automation-workflow-automate",
       "description": "You are a workflow automation expert specializing in creating efficient CI/CD pipelines, GitHub Actions workflows, and automated development processes. Design automation that reduces manual work, improves consistency, and accelerates delivery while maintaining quality and security.",
@@ -2795,81 +2015,6 @@
         "automated"
       ],
       "path": "skills\\cicd-automation-workflow-automate\\SKILL.md"
-    },
-    {
-      "id": "circleci-automation",
-      "name": "circleci-automation",
-      "description": "Automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor workflows/jobs, retrieve artifacts and test metadata. Always search tools first for current schemas.",
-      "category": "testing",
-      "tags": [
-        "circleci"
-      ],
-      "triggers": [
-        "circleci",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "trigger",
-        "pipelines",
-        "monitor",
-        "jobs"
-      ],
-      "path": "skills\\circleci-automation\\SKILL.md"
-    },
-    {
-      "id": "clarity-gate",
-      "name": "clarity-gate",
-      "description": "Pre-ingestion verification for epistemic quality in RAG systems with 9-point verification and Two-Round HITL workflow",
-      "category": "data-ai",
-      "tags": [
-        "clarity",
-        "gate"
-      ],
-      "triggers": [
-        "clarity",
-        "gate",
-        "pre",
-        "ingestion",
-        "verification",
-        "epistemic",
-        "quality",
-        "rag",
-        "point",
-        "two",
-        "round",
-        "hitl"
-      ],
-      "path": "skills\\clarity-gate\\SKILL.md"
-    },
-    {
-      "id": "claude-ally-health",
-      "name": "claude-ally-health",
-      "description": "A health assistant skill for medical information analysis, symptom tracking, and wellness guidance.",
-      "category": "general",
-      "tags": [
-        "claude",
-        "ally",
-        "health"
-      ],
-      "triggers": [
-        "claude",
-        "ally",
-        "health",
-        "assistant",
-        "skill",
-        "medical",
-        "information",
-        "analysis",
-        "symptom",
-        "tracking",
-        "wellness",
-        "guidance"
-      ],
-      "path": "skills\\claude-ally-health\\SKILL.md"
     },
     {
       "id": "claude-code-guide",
@@ -2923,74 +2068,6 @@
       "path": "skills\\claude-d3js-skill\\SKILL.md"
     },
     {
-      "id": "claude-scientific-skills",
-      "name": "claude-scientific-skills",
-      "description": "Scientific research and analysis skills",
-      "category": "general",
-      "tags": [
-        "claude",
-        "scientific",
-        "skills"
-      ],
-      "triggers": [
-        "claude",
-        "scientific",
-        "skills",
-        "research",
-        "analysis"
-      ],
-      "path": "skills\\claude-scientific-skills\\SKILL.md"
-    },
-    {
-      "id": "claude-speed-reader",
-      "name": "claude-speed-reader",
-      "description": "-Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting",
-      "category": "general",
-      "tags": [
-        "claude",
-        "speed",
-        "reader"
-      ],
-      "triggers": [
-        "claude",
-        "speed",
-        "reader",
-        "read",
-        "responses",
-        "600",
-        "wpm",
-        "rsvp",
-        "spritz",
-        "style",
-        "orp",
-        "highlighting"
-      ],
-      "path": "skills\\claude-speed-reader\\SKILL.md"
-    },
-    {
-      "id": "claude-win11-speckit-update-skill",
-      "name": "claude-win11-speckit-update-skill",
-      "description": "Windows 11 system management",
-      "category": "general",
-      "tags": [
-        "claude",
-        "win11",
-        "speckit",
-        "update",
-        "skill"
-      ],
-      "triggers": [
-        "claude",
-        "win11",
-        "speckit",
-        "update",
-        "skill",
-        "windows",
-        "11"
-      ],
-      "path": "skills\\claude-win11-speckit-update-skill\\SKILL.md"
-    },
-    {
       "id": "clean-code",
       "name": "clean-code",
       "description": "Applies principles from Robert C. Martin's 'Clean Code'. Use this skill when writing, reviewing, or refactoring code to ensure high quality, readability, and maintainability. Covers naming, functions, comments, error handling, and class design.",
@@ -3016,78 +2093,6 @@
       "path": "skills\\clean-code\\SKILL.md"
     },
     {
-      "id": "clerk-auth",
-      "name": "clerk-auth",
-      "description": "Expert patterns for Clerk auth implementation, middleware, organizations, webhooks, and user sync Use when: adding authentication, clerk auth, user authentication, sign in, sign up.",
-      "category": "security",
-      "tags": [
-        "clerk",
-        "auth"
-      ],
-      "triggers": [
-        "clerk",
-        "auth",
-        "middleware",
-        "organizations",
-        "webhooks",
-        "user",
-        "sync",
-        "adding",
-        "authentication",
-        "sign",
-        "up"
-      ],
-      "path": "skills\\clerk-auth\\SKILL.md"
-    },
-    {
-      "id": "clickup-automation",
-      "name": "clickup-automation",
-      "description": "Automate ClickUp project management including tasks, spaces, folders, lists, comments, and team operations via Rube MCP (Composio). Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "clickup"
-      ],
-      "triggers": [
-        "clickup",
-        "automation",
-        "automate",
-        "including",
-        "tasks",
-        "spaces",
-        "folders",
-        "lists",
-        "comments",
-        "team",
-        "operations",
-        "via"
-      ],
-      "path": "skills\\clickup-automation\\SKILL.md"
-    },
-    {
-      "id": "close-automation",
-      "name": "close-automation",
-      "description": "Automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS, handle tasks, and track notes. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "close"
-      ],
-      "triggers": [
-        "close",
-        "automation",
-        "automate",
-        "crm",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "leads",
-        "calls",
-        "sms"
-      ],
-      "path": "skills\\close-automation\\SKILL.md"
-    },
-    {
       "id": "cloud-architect",
       "name": "cloud-architect",
       "description": "Expert cloud architect specializing in AWS/Azure/GCP multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns. Masters serverless, microservices, security, compliance, and disaster recovery. Use PROACTIVELY for cloud architecture, cost optimization, migration planning, or multi-cloud strategies.",
@@ -3110,55 +2115,6 @@
         "cdk"
       ],
       "path": "skills\\cloud-architect\\SKILL.md"
-    },
-    {
-      "id": "cloud-penetration-testing",
-      "name": "Cloud Penetration Testing",
-      "description": "This skill should be used when the user asks to \"perform cloud penetration testing\", \"assess Azure or AWS or GCP security\", \"enumerate cloud resources\", \"exploit cloud misconfigurations\", \"test O365 security\", \"extract secrets from cloud environments\", or \"audit cloud infrastructure\". It provides comprehensive techniques for security assessment across major cloud platforms.",
-      "category": "security",
-      "tags": [
-        "cloud",
-        "penetration"
-      ],
-      "triggers": [
-        "cloud",
-        "penetration",
-        "testing",
-        "skill",
-        "should",
-        "used",
-        "user",
-        "asks",
-        "perform",
-        "assess",
-        "azure",
-        "aws"
-      ],
-      "path": "skills\\cloud-penetration-testing\\SKILL.md"
-    },
-    {
-      "id": "coda-automation",
-      "name": "coda-automation",
-      "description": "Automate Coda tasks via Rube MCP (Composio): manage docs, pages, tables, rows, formulas, permissions, and publishing. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "coda"
-      ],
-      "triggers": [
-        "coda",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "docs",
-        "pages",
-        "tables",
-        "rows"
-      ],
-      "path": "skills\\coda-automation\\SKILL.md"
     },
     {
       "id": "code-documentation-code-explain",
@@ -3835,30 +2791,6 @@
       "path": "skills\\conductor-validator\\SKILL.md"
     },
     {
-      "id": "confluence-automation",
-      "name": "confluence-automation",
-      "description": "Automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio). Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "confluence"
-      ],
-      "triggers": [
-        "confluence",
-        "automation",
-        "automate",
-        "page",
-        "creation",
-        "content",
-        "search",
-        "space",
-        "labels",
-        "hierarchy",
-        "navigation",
-        "via"
-      ],
-      "path": "skills\\confluence-automation\\SKILL.md"
-    },
-    {
       "id": "content-creator",
       "name": "content-creator",
       "description": "Create SEO-optimized marketing content with consistent brand voice. Includes brand voice analyzer, SEO optimizer, content frameworks, and social media templates. Use when writing blog posts, creating social media content, analyzing brand voice, optimizing SEO, planning content calendars, or when user mentions content creation, brand voice, SEO optimization, social media marketing, or content strategy.",
@@ -4137,30 +3069,6 @@
         "persistence"
       ],
       "path": "skills\\conversation-memory\\SKILL.md"
-    },
-    {
-      "id": "convertkit-automation",
-      "name": "convertkit-automation",
-      "description": "Automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "convertkit"
-      ],
-      "triggers": [
-        "convertkit",
-        "automation",
-        "automate",
-        "kit",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "subscribers",
-        "tags",
-        "broadcasts"
-      ],
-      "path": "skills\\convertkit-automation\\SKILL.md"
     },
     {
       "id": "copy-editing",
@@ -4809,30 +3717,6 @@
       "path": "skills\\database-optimizer\\SKILL.md"
     },
     {
-      "id": "datadog-automation",
-      "name": "datadog-automation",
-      "description": "Automate Datadog tasks via Rube MCP (Composio): query metrics, search logs, manage monitors/dashboards, create events and downtimes. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "datadog"
-      ],
-      "triggers": [
-        "datadog",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "query",
-        "metrics",
-        "search",
-        "logs"
-      ],
-      "path": "skills\\datadog-automation\\SKILL.md"
-    },
-    {
       "id": "dbt-transformation-patterns",
       "name": "dbt-transformation-patterns",
       "description": "Master dbt (data build tool) for analytics engineering with model organization, testing, documentation, and incremental strategies. Use when building data transformations, creating data models, or implementing analytics engineering best practices.",
@@ -5190,30 +4074,6 @@
       "path": "skills\\devops-troubleshooter\\SKILL.md"
     },
     {
-      "id": "discord-automation",
-      "name": "discord-automation",
-      "description": "Automate Discord tasks via Rube MCP (Composio): messages, channels, roles, webhooks, reactions. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "discord"
-      ],
-      "triggers": [
-        "discord",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "messages",
-        "channels",
-        "roles",
-        "webhooks"
-      ],
-      "path": "skills\\discord-automation\\SKILL.md"
-    },
-    {
       "id": "discord-bot-architect",
       "name": "discord-bot-architect",
       "description": "Specialized skill for building production-ready Discord bots. Covers Discord.js (JavaScript) and Pycord (Python), gateway intents, slash commands, interactive components, rate limiting, and sharding.",
@@ -5366,30 +4226,6 @@
       "path": "skills\\doc-coauthoring\\SKILL.md"
     },
     {
-      "id": "docker-expert",
-      "name": "docker-expert",
-      "description": "Docker containerization expert with deep knowledge of multi-stage builds, image optimization, container security, Docker Compose orchestration, and production deployment patterns. Use PROACTIVELY for Dockerfile optimization, container issues, image size problems, security hardening, networking, and orchestration challenges.",
-      "category": "security",
-      "tags": [
-        "docker"
-      ],
-      "triggers": [
-        "docker",
-        "containerization",
-        "deep",
-        "knowledge",
-        "multi",
-        "stage",
-        "image",
-        "optimization",
-        "container",
-        "security",
-        "compose",
-        "orchestration"
-      ],
-      "path": "skills\\docker-expert\\SKILL.md"
-    },
-    {
       "id": "docs-architect",
       "name": "docs-architect",
       "description": "Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-form technical manuals and ebooks. Use PROACTIVELY for system documentation, architecture guides, or technical deep-dives.",
@@ -5461,30 +4297,6 @@
         "friendly"
       ],
       "path": "skills\\documentation-templates\\SKILL.md"
-    },
-    {
-      "id": "docusign-automation",
-      "name": "docusign-automation",
-      "description": "Automate DocuSign tasks via Rube MCP (Composio): templates, envelopes, signatures, document management. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "docusign"
-      ],
-      "triggers": [
-        "docusign",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "envelopes",
-        "signatures",
-        "document",
-        "always"
-      ],
-      "path": "skills\\docusign-automation\\SKILL.md"
     },
     {
       "id": "docx-official",
@@ -5582,30 +4394,6 @@
         "covers"
       ],
       "path": "skills\\dotnet-backend-patterns\\SKILL.md"
-    },
-    {
-      "id": "dropbox-automation",
-      "name": "dropbox-automation",
-      "description": "Automate Dropbox file management, sharing, search, uploads, downloads, and folder operations via Rube MCP (Composio). Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "dropbox"
-      ],
-      "triggers": [
-        "dropbox",
-        "automation",
-        "automate",
-        "file",
-        "sharing",
-        "search",
-        "uploads",
-        "downloads",
-        "folder",
-        "operations",
-        "via",
-        "rube"
-      ],
-      "path": "skills\\dropbox-automation\\SKILL.md"
     },
     {
       "id": "dx-optimizer",
@@ -6146,127 +4934,6 @@
       "path": "skills\\expo-deployment\\SKILL.md"
     },
     {
-      "id": "fal-audio",
-      "name": "fal-audio",
-      "description": "Text-to-speech and speech-to-text using fal.ai audio models",
-      "category": "data-ai",
-      "tags": [
-        "fal",
-        "audio"
-      ],
-      "triggers": [
-        "fal",
-        "audio",
-        "text",
-        "speech",
-        "ai",
-        "models"
-      ],
-      "path": "skills\\fal-audio\\SKILL.md"
-    },
-    {
-      "id": "fal-generate",
-      "name": "fal-generate",
-      "description": "Generate images and videos using fal.ai AI models",
-      "category": "data-ai",
-      "tags": [
-        "fal",
-        "generate"
-      ],
-      "triggers": [
-        "fal",
-        "generate",
-        "images",
-        "videos",
-        "ai",
-        "models"
-      ],
-      "path": "skills\\fal-generate\\SKILL.md"
-    },
-    {
-      "id": "fal-image-edit",
-      "name": "fal-image-edit",
-      "description": "AI-powered image editing with style transfer and object removal",
-      "category": "data-ai",
-      "tags": [
-        "fal",
-        "image",
-        "edit"
-      ],
-      "triggers": [
-        "fal",
-        "image",
-        "edit",
-        "ai",
-        "powered",
-        "editing",
-        "style",
-        "transfer",
-        "object",
-        "removal"
-      ],
-      "path": "skills\\fal-image-edit\\SKILL.md"
-    },
-    {
-      "id": "fal-platform",
-      "name": "fal-platform",
-      "description": "Platform APIs for model management, pricing, and usage tracking",
-      "category": "general",
-      "tags": [
-        "fal",
-        "platform"
-      ],
-      "triggers": [
-        "fal",
-        "platform",
-        "apis",
-        "model",
-        "pricing",
-        "usage",
-        "tracking"
-      ],
-      "path": "skills\\fal-platform\\SKILL.md"
-    },
-    {
-      "id": "fal-upscale",
-      "name": "fal-upscale",
-      "description": "Upscale and enhance image and video resolution using AI",
-      "category": "data-ai",
-      "tags": [
-        "fal",
-        "upscale"
-      ],
-      "triggers": [
-        "fal",
-        "upscale",
-        "enhance",
-        "image",
-        "video",
-        "resolution",
-        "ai"
-      ],
-      "path": "skills\\fal-upscale\\SKILL.md"
-    },
-    {
-      "id": "fal-workflow",
-      "name": "fal-workflow",
-      "description": "Generate workflow JSON files for chaining AI models",
-      "category": "data-ai",
-      "tags": [
-        "fal"
-      ],
-      "triggers": [
-        "fal",
-        "generate",
-        "json",
-        "files",
-        "chaining",
-        "ai",
-        "models"
-      ],
-      "path": "skills\\fal-workflow\\SKILL.md"
-    },
-    {
       "id": "fastapi-pro",
       "name": "fastapi-pro",
       "description": "Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns. Use PROACTIVELY for FastAPI development, async optimization, or API architecture.",
@@ -6313,49 +4980,6 @@
         "backend"
       ],
       "path": "skills\\fastapi-templates\\SKILL.md"
-    },
-    {
-      "id": "ffuf-claude-skill",
-      "name": "ffuf-claude-skill",
-      "description": "Web fuzzing with ffuf",
-      "category": "general",
-      "tags": [
-        "ffuf",
-        "claude",
-        "skill"
-      ],
-      "triggers": [
-        "ffuf",
-        "claude",
-        "skill",
-        "web",
-        "fuzzing"
-      ],
-      "path": "skills\\ffuf-claude-skill\\SKILL.md"
-    },
-    {
-      "id": "figma-automation",
-      "name": "figma-automation",
-      "description": "Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "figma"
-      ],
-      "triggers": [
-        "figma",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "files",
-        "components",
-        "tokens",
-        "comments"
-      ],
-      "path": "skills\\figma-automation\\SKILL.md"
     },
     {
       "id": "file-organizer",
@@ -6681,32 +5305,6 @@
       "path": "skills\\fp-ts-pragmatic\\SKILL.md"
     },
     {
-      "id": "fp-ts-react",
-      "name": "fp-ts-react",
-      "description": "Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Use when building React apps with functional programming patterns. Works with React 18/19, Next.js 14/15.",
-      "category": "data-ai",
-      "tags": [
-        "fp",
-        "ts",
-        "react"
-      ],
-      "triggers": [
-        "fp",
-        "ts",
-        "react",
-        "practical",
-        "hooks",
-        "state",
-        "forms",
-        "data",
-        "fetching",
-        "building",
-        "apps",
-        "functional"
-      ],
-      "path": "skills\\fp-ts-react\\SKILL.md"
-    },
-    {
       "id": "framework-migration-code-migrate",
       "name": "framework-migration-code-migrate",
       "description": "You are a code migration expert specializing in transitioning codebases between frameworks, languages, versions, and platforms. Generate comprehensive migration plans, automated migration scripts, and",
@@ -6812,54 +5410,6 @@
       "path": "skills\\free-tool-strategy\\SKILL.md"
     },
     {
-      "id": "freshdesk-automation",
-      "name": "freshdesk-automation",
-      "description": "Automate Freshdesk helpdesk operations including tickets, contacts, companies, notes, and replies via Rube MCP (Composio). Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "freshdesk"
-      ],
-      "triggers": [
-        "freshdesk",
-        "automation",
-        "automate",
-        "helpdesk",
-        "operations",
-        "including",
-        "tickets",
-        "contacts",
-        "companies",
-        "notes",
-        "replies",
-        "via"
-      ],
-      "path": "skills\\freshdesk-automation\\SKILL.md"
-    },
-    {
-      "id": "freshservice-automation",
-      "name": "freshservice-automation",
-      "description": "Automate Freshservice ITSM tasks via Rube MCP (Composio): create/update tickets, bulk operations, service requests, and outbound emails. Always search tools first for current schemas.",
-      "category": "infrastructure",
-      "tags": [
-        "freshservice"
-      ],
-      "triggers": [
-        "freshservice",
-        "automation",
-        "automate",
-        "itsm",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "update",
-        "tickets",
-        "bulk"
-      ],
-      "path": "skills\\freshservice-automation\\SKILL.md"
-    },
-    {
       "id": "frontend-design",
       "name": "frontend-design",
       "description": "Create distinctive, production-grade frontend interfaces with intentional aesthetics, high craft, and non-generic visual identity. Use when building or styling web UIs, components, pages, dashboards, or frontend applications.",
@@ -6958,60 +5508,6 @@
         "components"
       ],
       "path": "skills\\frontend-mobile-development-component-scaffold\\SKILL.md"
-    },
-    {
-      "id": "frontend-mobile-security-xss-scan",
-      "name": "frontend-mobile-security-xss-scan",
-      "description": "You are a frontend security specialist focusing on Cross-Site Scripting (XSS) vulnerability detection and prevention. Analyze React, Vue, Angular, and vanilla JavaScript code to identify injection poi",
-      "category": "security",
-      "tags": [
-        "frontend",
-        "mobile",
-        "security",
-        "xss",
-        "scan"
-      ],
-      "triggers": [
-        "frontend",
-        "mobile",
-        "security",
-        "xss",
-        "scan",
-        "focusing",
-        "cross",
-        "site",
-        "scripting",
-        "vulnerability",
-        "detection",
-        "prevention"
-      ],
-      "path": "skills\\frontend-mobile-security-xss-scan\\SKILL.md"
-    },
-    {
-      "id": "frontend-security-coder",
-      "name": "frontend-security-coder",
-      "description": "Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side security patterns. Use PROACTIVELY for frontend security implementations or client-side security code reviews.",
-      "category": "security",
-      "tags": [
-        "frontend",
-        "security",
-        "coder"
-      ],
-      "triggers": [
-        "frontend",
-        "security",
-        "coder",
-        "secure",
-        "coding",
-        "specializing",
-        "xss",
-        "prevention",
-        "output",
-        "sanitization",
-        "client",
-        "side"
-      ],
-      "path": "skills\\frontend-security-coder\\SKILL.md"
     },
     {
       "id": "frontend-slides",
@@ -7543,78 +6039,6 @@
       "path": "skills\\github-actions-templates\\SKILL.md"
     },
     {
-      "id": "github-automation",
-      "name": "github-automation",
-      "description": "Automate GitHub repositories, issues, pull requests, branches, CI/CD, and permissions via Rube MCP (Composio). Manage code workflows, review PRs, search code, and handle deployments programmatically.",
-      "category": "infrastructure",
-      "tags": [
-        "github"
-      ],
-      "triggers": [
-        "github",
-        "automation",
-        "automate",
-        "repositories",
-        "issues",
-        "pull",
-        "requests",
-        "branches",
-        "ci",
-        "cd",
-        "permissions",
-        "via"
-      ],
-      "path": "skills\\github-automation\\SKILL.md"
-    },
-    {
-      "id": "github-workflow-automation",
-      "name": "github-workflow-automation",
-      "description": "Automate GitHub workflows with AI assistance. Includes PR reviews, issue triage, CI/CD integration, and Git operations. Use when automating GitHub workflows, setting up PR review automation, creating GitHub Actions, or triaging issues.",
-      "category": "infrastructure",
-      "tags": [
-        "github"
-      ],
-      "triggers": [
-        "github",
-        "automation",
-        "automate",
-        "ai",
-        "assistance",
-        "includes",
-        "pr",
-        "reviews",
-        "issue",
-        "triage",
-        "ci",
-        "cd"
-      ],
-      "path": "skills\\github-workflow-automation\\SKILL.md"
-    },
-    {
-      "id": "gitlab-automation",
-      "name": "gitlab-automation",
-      "description": "Automate GitLab project management, issues, merge requests, pipelines, branches, and user operations via Rube MCP (Composio). Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "gitlab"
-      ],
-      "triggers": [
-        "gitlab",
-        "automation",
-        "automate",
-        "issues",
-        "merge",
-        "requests",
-        "pipelines",
-        "branches",
-        "user",
-        "operations",
-        "via",
-        "rube"
-      ],
-      "path": "skills\\gitlab-automation\\SKILL.md"
-    },
-    {
       "id": "gitlab-ci-patterns",
       "name": "gitlab-ci-patterns",
       "description": "Build GitLab CI/CD pipelines with multi-stage workflows, caching, and distributed runners for scalable automation. Use when implementing GitLab CI/CD, optimizing pipeline performance, or setting up automated testing and deployment.",
@@ -7662,30 +6086,6 @@
         "setting"
       ],
       "path": "skills\\gitops-workflow\\SKILL.md"
-    },
-    {
-      "id": "gmail-automation",
-      "name": "gmail-automation",
-      "description": "Automate Gmail tasks via Rube MCP (Composio): send/reply, search, labels, drafts, attachments. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "gmail"
-      ],
-      "triggers": [
-        "gmail",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "send",
-        "reply",
-        "search",
-        "labels"
-      ],
-      "path": "skills\\gmail-automation\\SKILL.md"
     },
     {
       "id": "go-concurrency-patterns",
@@ -7781,105 +6181,6 @@
         "generics"
       ],
       "path": "skills\\golang-pro\\SKILL.md"
-    },
-    {
-      "id": "google-analytics-automation",
-      "name": "google-analytics-automation",
-      "description": "Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for current schemas.",
-      "category": "data-ai",
-      "tags": [
-        "google",
-        "analytics"
-      ],
-      "triggers": [
-        "google",
-        "analytics",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "run",
-        "reports",
-        "list"
-      ],
-      "path": "skills\\google-analytics-automation\\SKILL.md"
-    },
-    {
-      "id": "google-calendar-automation",
-      "name": "google-calendar-automation",
-      "description": "Automate Google Calendar events, scheduling, availability checks, and attendee management via Rube MCP (Composio). Create events, find free slots, manage attendees, and list calendars programmatically.",
-      "category": "workflow",
-      "tags": [
-        "google",
-        "calendar"
-      ],
-      "triggers": [
-        "google",
-        "calendar",
-        "automation",
-        "automate",
-        "events",
-        "scheduling",
-        "availability",
-        "checks",
-        "attendee",
-        "via",
-        "rube",
-        "mcp"
-      ],
-      "path": "skills\\google-calendar-automation\\SKILL.md"
-    },
-    {
-      "id": "google-drive-automation",
-      "name": "google-drive-automation",
-      "description": "Automate Google Drive file operations (upload, download, search, share, organize) via Rube MCP (Composio). Upload/download files, manage folders, share with permissions, and search across drives programmatically.",
-      "category": "workflow",
-      "tags": [
-        "google",
-        "drive"
-      ],
-      "triggers": [
-        "google",
-        "drive",
-        "automation",
-        "automate",
-        "file",
-        "operations",
-        "upload",
-        "download",
-        "search",
-        "share",
-        "organize",
-        "via"
-      ],
-      "path": "skills\\google-drive-automation\\SKILL.md"
-    },
-    {
-      "id": "googlesheets-automation",
-      "name": "googlesheets-automation",
-      "description": "Automate Google Sheets operations (read, write, format, filter, manage spreadsheets) via Rube MCP (Composio). Read/write data, manage tabs, apply formatting, and search rows programmatically.",
-      "category": "data-ai",
-      "tags": [
-        "googlesheets"
-      ],
-      "triggers": [
-        "googlesheets",
-        "automation",
-        "automate",
-        "google",
-        "sheets",
-        "operations",
-        "read",
-        "write",
-        "format",
-        "filter",
-        "spreadsheets",
-        "via"
-      ],
-      "path": "skills\\googlesheets-automation\\SKILL.md"
     },
     {
       "id": "grafana-dashboards",
@@ -8004,30 +6305,6 @@
       "path": "skills\\helm-chart-scaffolding\\SKILL.md"
     },
     {
-      "id": "helpdesk-automation",
-      "name": "helpdesk-automation",
-      "description": "Automate HelpDesk tasks via Rube MCP (Composio): list tickets, manage views, use canned responses, and configure custom fields. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "helpdesk"
-      ],
-      "triggers": [
-        "helpdesk",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "list",
-        "tickets",
-        "views",
-        "canned"
-      ],
-      "path": "skills\\helpdesk-automation\\SKILL.md"
-    },
-    {
       "id": "hr-pro",
       "name": "hr-pro",
       "description": "Professional, ethical HR partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations. Ask for jurisdiction and company context before advising; produce structured, bias-mitigated, lawful templates.",
@@ -8050,55 +6327,6 @@
         "compliant"
       ],
       "path": "skills\\hr-pro\\SKILL.md"
-    },
-    {
-      "id": "html-injection-testing",
-      "name": "HTML Injection Testing",
-      "description": "This skill should be used when the user asks to \"test for HTML injection\", \"inject HTML into web pages\", \"perform HTML injection attacks\", \"deface web applications\", or \"test content injection vulnerabilities\". It provides comprehensive HTML injection attack techniques and testing methodologies.",
-      "category": "security",
-      "tags": [
-        "html",
-        "injection"
-      ],
-      "triggers": [
-        "html",
-        "injection",
-        "testing",
-        "skill",
-        "should",
-        "used",
-        "user",
-        "asks",
-        "test",
-        "inject",
-        "web",
-        "pages"
-      ],
-      "path": "skills\\html-injection-testing\\SKILL.md"
-    },
-    {
-      "id": "hubspot-automation",
-      "name": "hubspot-automation",
-      "description": "Automate HubSpot CRM operations (contacts, companies, deals, tickets, properties) via Rube MCP using Composio integration.",
-      "category": "workflow",
-      "tags": [
-        "hubspot"
-      ],
-      "triggers": [
-        "hubspot",
-        "automation",
-        "automate",
-        "crm",
-        "operations",
-        "contacts",
-        "companies",
-        "deals",
-        "tickets",
-        "properties",
-        "via",
-        "rube"
-      ],
-      "path": "skills\\hubspot-automation\\SKILL.md"
     },
     {
       "id": "hubspot-integration",
@@ -8463,30 +6691,6 @@
       "path": "skills\\inngest\\SKILL.md"
     },
     {
-      "id": "instagram-automation",
-      "name": "instagram-automation",
-      "description": "Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insights, and publishing limits. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "instagram"
-      ],
-      "triggers": [
-        "instagram",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "posts",
-        "carousels",
-        "media",
-        "get"
-      ],
-      "path": "skills\\instagram-automation\\SKILL.md"
-    },
-    {
       "id": "interactive-portfolio",
       "name": "interactive-portfolio",
       "description": "Expert in building portfolios that actually land jobs and clients - not just showing work, but creating memorable experiences. Covers developer portfolios, designer portfolios, creative portfolios, and portfolios that convert visitors into opportunities. Use when: portfolio, personal website, showcase work, developer portfolio, designer portfolio.",
@@ -8510,30 +6714,6 @@
         "creating"
       ],
       "path": "skills\\interactive-portfolio\\SKILL.md"
-    },
-    {
-      "id": "intercom-automation",
-      "name": "intercom-automation",
-      "description": "Automate Intercom tasks via Rube MCP (Composio): conversations, contacts, companies, segments, admins. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "intercom"
-      ],
-      "triggers": [
-        "intercom",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "conversations",
-        "contacts",
-        "companies",
-        "segments"
-      ],
-      "path": "skills\\intercom-automation\\SKILL.md"
     },
     {
       "id": "internal-comms-anthropic",
@@ -8784,30 +6964,6 @@
       "path": "skills\\javascript-typescript-typescript-scaffold\\SKILL.md"
     },
     {
-      "id": "jira-automation",
-      "name": "jira-automation",
-      "description": "Automate Jira tasks via Rube MCP (Composio): issues, projects, sprints, boards, comments, users. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "jira"
-      ],
-      "triggers": [
-        "jira",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "issues",
-        "sprints",
-        "boards",
-        "comments"
-      ],
-      "path": "skills\\jira-automation\\SKILL.md"
-    },
-    {
       "id": "julia-pro",
       "name": "julia-pro",
       "description": "Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices. Expert in the Julia ecosystem including package management, scientific computing, and high-performance numerical code. Use PROACTIVELY for Julia development, optimization, or advanced Julia patterns.",
@@ -8830,58 +6986,6 @@
         "scientific"
       ],
       "path": "skills\\julia-pro\\SKILL.md"
-    },
-    {
-      "id": "k8s-manifest-generator",
-      "name": "k8s-manifest-generator",
-      "description": "Create production-ready Kubernetes manifests for Deployments, Services, ConfigMaps, and Secrets following best practices and security standards. Use when generating Kubernetes YAML manifests, creating K8s resources, or implementing production-grade Kubernetes configurations.",
-      "category": "security",
-      "tags": [
-        "k8s",
-        "manifest",
-        "generator"
-      ],
-      "triggers": [
-        "k8s",
-        "manifest",
-        "generator",
-        "kubernetes",
-        "manifests",
-        "deployments",
-        "configmaps",
-        "secrets",
-        "following",
-        "security",
-        "standards",
-        "generating"
-      ],
-      "path": "skills\\k8s-manifest-generator\\SKILL.md"
-    },
-    {
-      "id": "k8s-security-policies",
-      "name": "k8s-security-policies",
-      "description": "Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolicy, and RBAC for production-grade security. Use when securing Kubernetes clusters, implementing network isolation, or enforcing pod security standards.",
-      "category": "security",
-      "tags": [
-        "k8s",
-        "security",
-        "policies"
-      ],
-      "triggers": [
-        "k8s",
-        "security",
-        "policies",
-        "kubernetes",
-        "including",
-        "networkpolicy",
-        "podsecuritypolicy",
-        "rbac",
-        "grade",
-        "securing",
-        "clusters",
-        "implementing"
-      ],
-      "path": "skills\\k8s-security-policies\\SKILL.md"
     },
     {
       "id": "kaizen",
@@ -8908,30 +7012,6 @@
       "path": "skills\\kaizen\\SKILL.md"
     },
     {
-      "id": "klaviyo-automation",
-      "name": "klaviyo-automation",
-      "description": "Automate Klaviyo tasks via Rube MCP (Composio): manage email/SMS campaigns, inspect campaign messages, track tags, and monitor send jobs. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "klaviyo"
-      ],
-      "triggers": [
-        "klaviyo",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "email",
-        "sms",
-        "campaigns",
-        "inspect"
-      ],
-      "path": "skills\\klaviyo-automation\\SKILL.md"
-    },
-    {
       "id": "kpi-dashboard-design",
       "name": "kpi-dashboard-design",
       "description": "Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use when building business dashboards, selecting metrics, or designing data visualization layouts.",
@@ -8955,30 +7035,6 @@
         "business"
       ],
       "path": "skills\\kpi-dashboard-design\\SKILL.md"
-    },
-    {
-      "id": "kubernetes-architect",
-      "name": "kubernetes-architect",
-      "description": "Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration. Masters EKS/AKS/GKE, service mesh (Istio/Linkerd), progressive delivery, multi-tenancy, and platform engineering. Handles security, observability, cost optimization, and developer experience. Use PROACTIVELY for K8s architecture, GitOps implementation, or cloud-native platform design.",
-      "category": "security",
-      "tags": [
-        "kubernetes"
-      ],
-      "triggers": [
-        "kubernetes",
-        "architect",
-        "specializing",
-        "cloud",
-        "native",
-        "infrastructure",
-        "gitops",
-        "argocd",
-        "flux",
-        "enterprise",
-        "container",
-        "orchestration"
-      ],
-      "path": "skills\\kubernetes-architect\\SKILL.md"
     },
     {
       "id": "langchain-architecture",
@@ -9152,30 +7208,6 @@
       "path": "skills\\legal-advisor\\SKILL.md"
     },
     {
-      "id": "linear-automation",
-      "name": "linear-automation",
-      "description": "Automate Linear tasks via Rube MCP (Composio): issues, projects, cycles, teams, labels. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "linear"
-      ],
-      "triggers": [
-        "linear",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "issues",
-        "cycles",
-        "teams",
-        "labels"
-      ],
-      "path": "skills\\linear-automation\\SKILL.md"
-    },
-    {
       "id": "linear-claude-skill",
       "name": "linear-claude-skill",
       "description": "Manage Linear issues, projects, and teams",
@@ -9193,30 +7225,6 @@
         "teams"
       ],
       "path": "skills\\linear-claude-skill\\SKILL.md"
-    },
-    {
-      "id": "linkedin-automation",
-      "name": "linkedin-automation",
-      "description": "Automate LinkedIn tasks via Rube MCP (Composio): create posts, manage profile, company info, comments, and image uploads. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "linkedin"
-      ],
-      "triggers": [
-        "linkedin",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "posts",
-        "profile",
-        "company",
-        "info"
-      ],
-      "path": "skills\\linkedin-automation\\SKILL.md"
     },
     {
       "id": "linkerd-patterns",
@@ -9293,32 +7301,6 @@
         "privesc"
       ],
       "path": "skills\\linux-privilege-escalation\\SKILL.md"
-    },
-    {
-      "id": "linux-shell-scripting",
-      "name": "Linux Production Shell Scripts",
-      "description": "This skill should be used when the user asks to \"create bash scripts\", \"automate Linux tasks\", \"monitor system resources\", \"backup files\", \"manage users\", or \"write production shell scripts\". It provides ready-to-use shell script templates for system administration.",
-      "category": "general",
-      "tags": [
-        "linux",
-        "shell",
-        "scripting"
-      ],
-      "triggers": [
-        "linux",
-        "shell",
-        "scripting",
-        "scripts",
-        "skill",
-        "should",
-        "used",
-        "user",
-        "asks",
-        "bash",
-        "automate",
-        "tasks"
-      ],
-      "path": "skills\\linux-shell-scripting\\SKILL.md"
     },
     {
       "id": "llm-app-patterns",
@@ -9498,77 +7480,6 @@
         "arguments"
       ],
       "path": "skills\\machine-learning-ops-ml-pipeline\\SKILL.md"
-    },
-    {
-      "id": "mailchimp-automation",
-      "name": "mailchimp-automation",
-      "description": "Automate Mailchimp email marketing including campaigns, audiences, subscribers, segments, and analytics via Rube MCP (Composio). Always search tools first for current schemas.",
-      "category": "data-ai",
-      "tags": [
-        "mailchimp"
-      ],
-      "triggers": [
-        "mailchimp",
-        "automation",
-        "automate",
-        "email",
-        "marketing",
-        "including",
-        "campaigns",
-        "audiences",
-        "subscribers",
-        "segments",
-        "analytics",
-        "via"
-      ],
-      "path": "skills\\mailchimp-automation\\SKILL.md"
-    },
-    {
-      "id": "make-automation",
-      "name": "make-automation",
-      "description": "Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and timezone lookups. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "make"
-      ],
-      "triggers": [
-        "make",
-        "automation",
-        "automate",
-        "integromat",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "operations",
-        "enums",
-        "language"
-      ],
-      "path": "skills\\make-automation\\SKILL.md"
-    },
-    {
-      "id": "makepad-skills",
-      "name": "makepad-skills",
-      "description": "Makepad UI development skills for Rust apps: setup, patterns, shaders, packaging, and troubleshooting.",
-      "category": "development",
-      "tags": [
-        "makepad",
-        "skills"
-      ],
-      "triggers": [
-        "makepad",
-        "skills",
-        "ui",
-        "development",
-        "rust",
-        "apps",
-        "setup",
-        "shaders",
-        "packaging",
-        "troubleshooting"
-      ],
-      "path": "skills\\makepad-skills\\SKILL.md"
     },
     {
       "id": "malware-analyst",
@@ -9862,31 +7773,6 @@
       "path": "skills\\microservices-patterns\\SKILL.md"
     },
     {
-      "id": "microsoft-teams-automation",
-      "name": "microsoft-teams-automation",
-      "description": "Automate Microsoft Teams tasks via Rube MCP (Composio): send messages, manage channels, create meetings, handle chats, and search messages. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "microsoft",
-        "teams"
-      ],
-      "triggers": [
-        "microsoft",
-        "teams",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "send",
-        "messages",
-        "channels"
-      ],
-      "path": "skills\\microsoft-teams-automation\\SKILL.md"
-    },
-    {
       "id": "minecraft-bukkit-pro",
       "name": "minecraft-bukkit-pro",
       "description": "Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs. Specializes in event-driven architecture, command systems, world manipulation, player management, and performance optimization. Use PROACTIVELY for plugin architecture, gameplay mechanics, server-side features, or cross-version compatibility.",
@@ -9910,54 +7796,6 @@
         "driven"
       ],
       "path": "skills\\minecraft-bukkit-pro\\SKILL.md"
-    },
-    {
-      "id": "miro-automation",
-      "name": "miro-automation",
-      "description": "Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes, frames, sharing, connectors. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "miro"
-      ],
-      "triggers": [
-        "miro",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "boards",
-        "items",
-        "sticky",
-        "notes"
-      ],
-      "path": "skills\\miro-automation\\SKILL.md"
-    },
-    {
-      "id": "mixpanel-automation",
-      "name": "mixpanel-automation",
-      "description": "Automate Mixpanel tasks via Rube MCP (Composio): events, segmentation, funnels, cohorts, user profiles, JQL queries. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "mixpanel"
-      ],
-      "triggers": [
-        "mixpanel",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "events",
-        "segmentation",
-        "funnels",
-        "cohorts"
-      ],
-      "path": "skills\\mixpanel-automation\\SKILL.md"
     },
     {
       "id": "ml-engineer",
@@ -10081,32 +7919,6 @@
       "path": "skills\\mobile-developer\\SKILL.md"
     },
     {
-      "id": "mobile-security-coder",
-      "name": "mobile-security-coder",
-      "description": "Expert in secure mobile coding practices specializing in input validation, WebView security, and mobile-specific security patterns. Use PROACTIVELY for mobile security implementations or mobile security code reviews.",
-      "category": "security",
-      "tags": [
-        "mobile",
-        "security",
-        "coder"
-      ],
-      "triggers": [
-        "mobile",
-        "security",
-        "coder",
-        "secure",
-        "coding",
-        "specializing",
-        "input",
-        "validation",
-        "webview",
-        "specific",
-        "proactively",
-        "implementations"
-      ],
-      "path": "skills\\mobile-security-coder\\SKILL.md"
-    },
-    {
       "id": "modern-javascript-patterns",
       "name": "modern-javascript-patterns",
       "description": "Master ES6+ features including async/await, destructuring, spread operators, arrow functions, promises, modules, iterators, generators, and functional programming patterns for writing clean, efficient JavaScript code. Use when refactoring legacy code, implementing modern patterns, or optimizing JavaScript applications.",
@@ -10130,30 +7942,6 @@
         "functions"
       ],
       "path": "skills\\modern-javascript-patterns\\SKILL.md"
-    },
-    {
-      "id": "monday-automation",
-      "name": "monday-automation",
-      "description": "Automate Monday.com work management including boards, items, columns, groups, subitems, and updates via Rube MCP (Composio). Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "monday"
-      ],
-      "triggers": [
-        "monday",
-        "automation",
-        "automate",
-        "com",
-        "work",
-        "including",
-        "boards",
-        "items",
-        "columns",
-        "groups",
-        "subitems",
-        "updates"
-      ],
-      "path": "skills\\monday-automation\\SKILL.md"
     },
     {
       "id": "monorepo-architect",
@@ -10429,30 +8217,6 @@
       "path": "skills\\n8n-node-configuration\\SKILL.md"
     },
     {
-      "id": "nanobanana-ppt-skills",
-      "name": "nanobanana-ppt-skills",
-      "description": "AI-powered PPT generation with document analysis and styled images",
-      "category": "data-ai",
-      "tags": [
-        "nanobanana",
-        "ppt",
-        "skills"
-      ],
-      "triggers": [
-        "nanobanana",
-        "ppt",
-        "skills",
-        "ai",
-        "powered",
-        "generation",
-        "document",
-        "analysis",
-        "styled",
-        "images"
-      ],
-      "path": "skills\\nanobanana-ppt-skills\\SKILL.md"
-    },
-    {
       "id": "neon-postgres",
       "name": "neon-postgres",
       "description": "Expert patterns for Neon serverless Postgres, branching, connection pooling, and Prisma/Drizzle integration Use when: neon database, serverless postgres, database branching, neon postgres, postgres serverless.",
@@ -10601,32 +8365,6 @@
       "path": "skills\\nextjs-best-practices\\SKILL.md"
     },
     {
-      "id": "nextjs-supabase-auth",
-      "name": "nextjs-supabase-auth",
-      "description": "Expert integration of Supabase Auth with Next.js App Router Use when: supabase auth next, authentication next.js, login supabase, auth middleware, protected route.",
-      "category": "security",
-      "tags": [
-        "nextjs",
-        "supabase",
-        "auth"
-      ],
-      "triggers": [
-        "nextjs",
-        "supabase",
-        "auth",
-        "integration",
-        "next",
-        "js",
-        "app",
-        "router",
-        "authentication",
-        "login",
-        "middleware",
-        "protected"
-      ],
-      "path": "skills\\nextjs-supabase-auth\\SKILL.md"
-    },
-    {
       "id": "nft-standards",
       "name": "nft-standards",
       "description": "Implement NFT standards (ERC-721, ERC-1155) with proper metadata handling, minting strategies, and marketplace integration. Use when creating NFT contracts, building NFT marketplaces, or implementing digital asset systems.",
@@ -10749,30 +8487,6 @@
         "backed"
       ],
       "path": "skills\\notebooklm\\SKILL.md"
-    },
-    {
-      "id": "notion-automation",
-      "name": "notion-automation",
-      "description": "Automate Notion tasks via Rube MCP (Composio): pages, databases, blocks, comments, users. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "notion"
-      ],
-      "triggers": [
-        "notion",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "pages",
-        "databases",
-        "blocks",
-        "comments"
-      ],
-      "path": "skills\\notion-automation\\SKILL.md"
     },
     {
       "id": "notion-template-business",
@@ -11005,31 +8719,6 @@
       "path": "skills\\onboarding-cro\\SKILL.md"
     },
     {
-      "id": "one-drive-automation",
-      "name": "one-drive-automation",
-      "description": "Automate OneDrive file management, search, uploads, downloads, sharing, permissions, and folder operations via Rube MCP (Composio). Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "one",
-        "drive"
-      ],
-      "triggers": [
-        "one",
-        "drive",
-        "automation",
-        "automate",
-        "onedrive",
-        "file",
-        "search",
-        "uploads",
-        "downloads",
-        "sharing",
-        "permissions",
-        "folder"
-      ],
-      "path": "skills\\one-drive-automation\\SKILL.md"
-    },
-    {
       "id": "openapi-spec-generation",
       "name": "openapi-spec-generation",
       "description": "Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance.",
@@ -11079,55 +8768,6 @@
       "path": "skills\\oss-hunter\\SKILL.md"
     },
     {
-      "id": "outlook-automation",
-      "name": "outlook-automation",
-      "description": "Automate Outlook tasks via Rube MCP (Composio): emails, calendar, contacts, folders, attachments. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "outlook"
-      ],
-      "triggers": [
-        "outlook",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "emails",
-        "calendar",
-        "contacts",
-        "folders"
-      ],
-      "path": "skills\\outlook-automation\\SKILL.md"
-    },
-    {
-      "id": "outlook-calendar-automation",
-      "name": "outlook-calendar-automation",
-      "description": "Automate Outlook Calendar tasks via Rube MCP (Composio): create events, manage attendees, find meeting times, and handle invitations. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "outlook",
-        "calendar"
-      ],
-      "triggers": [
-        "outlook",
-        "calendar",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "events",
-        "attendees",
-        "find"
-      ],
-      "path": "skills\\outlook-calendar-automation\\SKILL.md"
-    },
-    {
       "id": "page-cro",
       "name": "page-cro",
       "description": "Analyze and optimize individual pages for conversion performance. Use when the user wants to improve conversion rates, diagnose why a page is underperforming, or increase the effectiveness of marketing pages (homepage, landing pages, pricing, feature pages, or blog posts). This skill focuses on diagnosis, prioritization, and testable recommendations— not blind optimization.",
@@ -11151,30 +8791,6 @@
         "rates"
       ],
       "path": "skills\\page-cro\\SKILL.md"
-    },
-    {
-      "id": "pagerduty-automation",
-      "name": "pagerduty-automation",
-      "description": "Automate PagerDuty tasks via Rube MCP (Composio): manage incidents, services, schedules, escalation policies, and on-call rotations. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "pagerduty"
-      ],
-      "triggers": [
-        "pagerduty",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "incidents",
-        "schedules",
-        "escalation",
-        "policies"
-      ],
-      "path": "skills\\pagerduty-automation\\SKILL.md"
     },
     {
       "id": "paid-ads",
@@ -11541,30 +9157,6 @@
       "path": "skills\\php-pro\\SKILL.md"
     },
     {
-      "id": "pipedrive-automation",
-      "name": "pipedrive-automation",
-      "description": "Automate Pipedrive CRM operations including deals, contacts, organizations, activities, notes, and pipeline management via Rube MCP (Composio). Always search tools first for current schemas.",
-      "category": "infrastructure",
-      "tags": [
-        "pipedrive"
-      ],
-      "triggers": [
-        "pipedrive",
-        "automation",
-        "automate",
-        "crm",
-        "operations",
-        "including",
-        "deals",
-        "contacts",
-        "organizations",
-        "activities",
-        "notes",
-        "pipeline"
-      ],
-      "path": "skills\\pipedrive-automation\\SKILL.md"
-    },
-    {
       "id": "plaid-fintech",
       "name": "plaid-fintech",
       "description": "Expert patterns for Plaid API integration including Link token flows, transactions sync, identity verification, Auth for ACH, balance checks, webhook handling, and fintech compliance best practices. Use when: plaid, bank account linking, bank connection, ach, account aggregation.",
@@ -11641,6 +9233,110 @@
       "path": "skills\\planning-with-files\\SKILL.md"
     },
     {
+      "id": "playbook-cloud-security",
+      "name": "Cloud Security Playbook",
+      "description": "Comprehensive playbook for securing and assessing cloud infrastructure (AWS, Azure, GCP) and containerized environments. Covers IAM exploitation, metadata attacks, and serverless security.",
+      "category": "security",
+      "tags": [
+        "playbook",
+        "cloud",
+        "security"
+      ],
+      "triggers": [
+        "playbook",
+        "cloud",
+        "security",
+        "securing",
+        "assessing",
+        "infrastructure",
+        "aws",
+        "azure",
+        "gcp",
+        "containerized",
+        "environments",
+        "covers"
+      ],
+      "path": "skills\\playbook-cloud-security\\SKILL.md"
+    },
+    {
+      "id": "playbook-defensive-security",
+      "name": "Defensive Security & Hardening Playbook",
+      "description": "Comprehensive playbook for defensive security, code auditing, and system hardening. Covers SAST/DAST patterns, secure coding standards (SDE), and compliance verification.",
+      "category": "security",
+      "tags": [
+        "playbook",
+        "defensive",
+        "security"
+      ],
+      "triggers": [
+        "playbook",
+        "defensive",
+        "security",
+        "hardening",
+        "code",
+        "auditing",
+        "covers",
+        "sast",
+        "dast",
+        "secure",
+        "coding",
+        "standards"
+      ],
+      "path": "skills\\playbook-defensive-security\\SKILL.md"
+    },
+    {
+      "id": "playbook-identity-security",
+      "name": "Identity & Access Security Playbook",
+      "description": "Comprehensive playbook for testing and securing identity systems. Covers Active Directory attacks, modern OAuth/AuthZ patterns, session management, and common authentication bypasses.",
+      "category": "security",
+      "tags": [
+        "playbook",
+        "identity",
+        "security"
+      ],
+      "triggers": [
+        "playbook",
+        "identity",
+        "security",
+        "access",
+        "testing",
+        "securing",
+        "covers",
+        "active",
+        "directory",
+        "attacks",
+        "oauth",
+        "authz"
+      ],
+      "path": "skills\\playbook-identity-security\\SKILL.md"
+    },
+    {
+      "id": "playbook-web-vulns",
+      "name": "Web Vulnerabilities Playbook",
+      "description": "Advanced playbook for discovering and exploiting web application vulnerabilities. Covers OWASP Top 10, API security, injection techniques, and modern XSS/SSRF vectors.",
+      "category": "security",
+      "tags": [
+        "playbook",
+        "web",
+        "vulns"
+      ],
+      "triggers": [
+        "playbook",
+        "web",
+        "vulns",
+        "vulnerabilities",
+        "discovering",
+        "exploiting",
+        "application",
+        "covers",
+        "owasp",
+        "top",
+        "10",
+        "api"
+      ],
+      "path": "skills\\playbook-web-vulns\\SKILL.md"
+    },
+    {
       "id": "playwright-skill",
       "name": "playwright-skill",
       "description": "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.",
@@ -11691,31 +9387,6 @@
       "path": "skills\\popup-cro\\SKILL.md"
     },
     {
-      "id": "posix-shell-pro",
-      "name": "posix-shell-pro",
-      "description": "Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell scripts that run on any POSIX-compliant shell (dash, ash, sh, bash --posix).",
-      "category": "general",
-      "tags": [
-        "posix",
-        "shell"
-      ],
-      "triggers": [
-        "posix",
-        "shell",
-        "pro",
-        "strict",
-        "sh",
-        "scripting",
-        "maximum",
-        "portability",
-        "unix",
-        "like",
-        "specializes",
-        "scripts"
-      ],
-      "path": "skills\\posix-shell-pro\\SKILL.md"
-    },
-    {
       "id": "postgres-best-practices",
       "name": "supabase-postgres-best-practices",
       "description": "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.",
@@ -11762,54 +9433,6 @@
         "features"
       ],
       "path": "skills\\postgresql\\SKILL.md"
-    },
-    {
-      "id": "posthog-automation",
-      "name": "posthog-automation",
-      "description": "Automate PostHog tasks via Rube MCP (Composio): events, feature flags, projects, user profiles, annotations. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "posthog"
-      ],
-      "triggers": [
-        "posthog",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "events",
-        "feature",
-        "flags",
-        "user"
-      ],
-      "path": "skills\\posthog-automation\\SKILL.md"
-    },
-    {
-      "id": "postmark-automation",
-      "name": "postmark-automation",
-      "description": "Automate Postmark email delivery tasks via Rube MCP (Composio): send templated emails, manage templates, monitor delivery stats and bounces. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "postmark"
-      ],
-      "triggers": [
-        "postmark",
-        "automation",
-        "automate",
-        "email",
-        "delivery",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "send",
-        "templated"
-      ],
-      "path": "skills\\postmark-automation\\SKILL.md"
     },
     {
       "id": "postmortem-writing",
@@ -11977,32 +9600,6 @@
         "discovery"
       ],
       "path": "skills\\product-manager-toolkit\\SKILL.md"
-    },
-    {
-      "id": "production-code-audit",
-      "name": "production-code-audit",
-      "description": "Autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations",
-      "category": "architecture",
-      "tags": [
-        "production",
-        "code",
-        "audit"
-      ],
-      "triggers": [
-        "production",
-        "code",
-        "audit",
-        "autonomously",
-        "deep",
-        "scan",
-        "entire",
-        "codebase",
-        "line",
-        "understand",
-        "architecture",
-        "then"
-      ],
-      "path": "skills\\production-code-audit\\SKILL.md"
     },
     {
       "id": "programmatic-seo",
@@ -12229,24 +9826,6 @@
         "traffic"
       ],
       "path": "skills\\protocol-reverse-engineering\\SKILL.md"
-    },
-    {
-      "id": "pypict-skill",
-      "name": "pypict-skill",
-      "description": "Pairwise test generation",
-      "category": "testing",
-      "tags": [
-        "pypict",
-        "skill"
-      ],
-      "triggers": [
-        "pypict",
-        "skill",
-        "pairwise",
-        "test",
-        "generation"
-      ],
-      "path": "skills\\pypict-skill\\SKILL.md"
     },
     {
       "id": "python-development-python-scaffold",
@@ -12493,151 +10072,6 @@
       "path": "skills\\rag-implementation\\SKILL.md"
     },
     {
-      "id": "react-best-practices",
-      "name": "vercel-react-best-practices",
-      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
-      "category": "data-ai",
-      "tags": [
-        "react",
-        "best",
-        "practices"
-      ],
-      "triggers": [
-        "react",
-        "best",
-        "practices",
-        "vercel",
-        "next",
-        "js",
-        "performance",
-        "optimization",
-        "guidelines",
-        "engineering",
-        "skill",
-        "should"
-      ],
-      "path": "skills\\react-best-practices\\SKILL.md"
-    },
-    {
-      "id": "react-modernization",
-      "name": "react-modernization",
-      "description": "Upgrade React applications to latest versions, migrate from class components to hooks, and adopt concurrent features. Use when modernizing React codebases, migrating to React Hooks, or upgrading to latest React versions.",
-      "category": "development",
-      "tags": [
-        "react",
-        "modernization"
-      ],
-      "triggers": [
-        "react",
-        "modernization",
-        "upgrade",
-        "applications",
-        "latest",
-        "versions",
-        "migrate",
-        "class",
-        "components",
-        "hooks",
-        "adopt",
-        "concurrent"
-      ],
-      "path": "skills\\react-modernization\\SKILL.md"
-    },
-    {
-      "id": "react-native-architecture",
-      "name": "react-native-architecture",
-      "description": "Build production React Native apps with Expo, navigation, native modules, offline sync, and cross-platform patterns. Use when developing mobile apps, implementing native integrations, or architecting React Native projects.",
-      "category": "development",
-      "tags": [
-        "react",
-        "native",
-        "architecture"
-      ],
-      "triggers": [
-        "react",
-        "native",
-        "architecture",
-        "apps",
-        "expo",
-        "navigation",
-        "modules",
-        "offline",
-        "sync",
-        "cross",
-        "platform",
-        "developing"
-      ],
-      "path": "skills\\react-native-architecture\\SKILL.md"
-    },
-    {
-      "id": "react-patterns",
-      "name": "react-patterns",
-      "description": "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices.",
-      "category": "development",
-      "tags": [
-        "react"
-      ],
-      "triggers": [
-        "react",
-        "principles",
-        "hooks",
-        "composition",
-        "performance",
-        "typescript"
-      ],
-      "path": "skills\\react-patterns\\SKILL.md"
-    },
-    {
-      "id": "react-state-management",
-      "name": "react-state-management",
-      "description": "Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server state, or choosing between state management solutions.",
-      "category": "development",
-      "tags": [
-        "react",
-        "state"
-      ],
-      "triggers": [
-        "react",
-        "state",
-        "redux",
-        "toolkit",
-        "zustand",
-        "jotai",
-        "query",
-        "setting",
-        "up",
-        "global",
-        "managing",
-        "server"
-      ],
-      "path": "skills\\react-state-management\\SKILL.md"
-    },
-    {
-      "id": "react-ui-patterns",
-      "name": "react-ui-patterns",
-      "description": "Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.",
-      "category": "data-ai",
-      "tags": [
-        "react",
-        "ui"
-      ],
-      "triggers": [
-        "react",
-        "ui",
-        "loading",
-        "states",
-        "error",
-        "handling",
-        "data",
-        "fetching",
-        "building",
-        "components",
-        "async",
-        "managing"
-      ],
-      "path": "skills\\react-ui-patterns\\SKILL.md"
-    },
-    {
       "id": "readme",
       "name": "readme",
       "description": "When the user wants to create or update a README.md file for a project. Also use when the user says 'write readme,' 'create readme,' 'document this project,' 'project documentation,' or asks for help with README.md. This skill creates absurdly thorough documentation covering local setup, architecture, and deployment.",
@@ -12738,30 +10172,6 @@
       "path": "skills\\red-team-tools\\SKILL.md"
     },
     {
-      "id": "reddit-automation",
-      "name": "reddit-automation",
-      "description": "Automate Reddit tasks via Rube MCP (Composio): search subreddits, create posts, manage comments, and browse top content. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "reddit"
-      ],
-      "triggers": [
-        "reddit",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "search",
-        "subreddits",
-        "posts",
-        "comments"
-      ],
-      "path": "skills\\reddit-automation\\SKILL.md"
-    },
-    {
       "id": "reference-builder",
       "name": "reference-builder",
       "description": "Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configuration guides, and searchable reference materials. Use PROACTIVELY for API docs, configuration references, or complete technical specifications.",
@@ -12832,30 +10242,6 @@
         "creation"
       ],
       "path": "skills\\remotion-best-practices\\SKILL.md"
-    },
-    {
-      "id": "render-automation",
-      "name": "render-automation",
-      "description": "Automate Render tasks via Rube MCP (Composio): services, deployments, projects. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "render"
-      ],
-      "triggers": [
-        "render",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "deployments",
-        "always",
-        "search",
-        "first"
-      ],
-      "path": "skills\\render-automation\\SKILL.md"
     },
     {
       "id": "requesting-code-review",
@@ -13055,6 +10441,31 @@
       "path": "skills\\rust-pro\\SKILL.md"
     },
     {
+      "id": "saas-automation-suite",
+      "name": "SaaS Automation Suite",
+      "description": "Unified interface for 100+ SaaS automations via Rube MCP (Composio). Handles CRM, Marketing, DevTools, and Productivity integrations with standardized patterns.",
+      "category": "architecture",
+      "tags": [
+        "saas",
+        "suite"
+      ],
+      "triggers": [
+        "saas",
+        "suite",
+        "automation",
+        "unified",
+        "interface",
+        "100",
+        "automations",
+        "via",
+        "rube",
+        "mcp",
+        "composio",
+        "crm"
+      ],
+      "path": "skills\\saas-automation-suite\\SKILL.md"
+    },
+    {
       "id": "saga-orchestration",
       "name": "saga-orchestration",
       "description": "Implement saga patterns for distributed transactions and cross-aggregate workflows. Use when coordinating multi-step business processes, handling compensating transactions, or managing long-running workflows.",
@@ -13102,30 +10513,6 @@
         "case"
       ],
       "path": "skills\\sales-automator\\SKILL.md"
-    },
-    {
-      "id": "salesforce-automation",
-      "name": "salesforce-automation",
-      "description": "Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts, opportunities, SOQL queries. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "salesforce"
-      ],
-      "triggers": [
-        "salesforce",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "leads",
-        "contacts",
-        "accounts",
-        "opportunities"
-      ],
-      "path": "skills\\salesforce-automation\\SKILL.md"
     },
     {
       "id": "salesforce-development",
@@ -13372,78 +10759,6 @@
       "path": "skills\\secrets-management\\SKILL.md"
     },
     {
-      "id": "security-auditor",
-      "name": "security-auditor",
-      "description": "Expert security auditor specializing in DevSecOps, comprehensive cybersecurity, and compliance frameworks. Masters vulnerability assessment, threat modeling, secure authentication (OAuth2/OIDC), OWASP standards, cloud security, and security automation. Handles DevSecOps integration, compliance (GDPR/HIPAA/SOC2), and incident response. Use PROACTIVELY for security audits, DevSecOps, or compliance implementation.",
-      "category": "security",
-      "tags": [
-        "security",
-        "auditor"
-      ],
-      "triggers": [
-        "security",
-        "auditor",
-        "specializing",
-        "devsecops",
-        "cybersecurity",
-        "compliance",
-        "frameworks",
-        "masters",
-        "vulnerability",
-        "assessment",
-        "threat",
-        "modeling"
-      ],
-      "path": "skills\\security-auditor\\SKILL.md"
-    },
-    {
-      "id": "security-bluebook-builder",
-      "name": "security-bluebook-builder",
-      "description": "Build security Blue Books for sensitive apps",
-      "category": "security",
-      "tags": [
-        "security",
-        "bluebook",
-        "builder"
-      ],
-      "triggers": [
-        "security",
-        "bluebook",
-        "builder",
-        "blue",
-        "books",
-        "sensitive",
-        "apps"
-      ],
-      "path": "skills\\security-bluebook-builder\\SKILL.md"
-    },
-    {
-      "id": "security-compliance-compliance-check",
-      "name": "security-compliance-compliance-check",
-      "description": "You are a compliance expert specializing in regulatory requirements for software systems including GDPR, HIPAA, SOC2, PCI-DSS, and other industry standards. Perform compliance audits and provide implementation guidance.",
-      "category": "security",
-      "tags": [
-        "security",
-        "compliance",
-        "check"
-      ],
-      "triggers": [
-        "security",
-        "compliance",
-        "check",
-        "specializing",
-        "regulatory",
-        "requirements",
-        "software",
-        "including",
-        "gdpr",
-        "hipaa",
-        "soc2",
-        "pci"
-      ],
-      "path": "skills\\security-compliance-compliance-check\\SKILL.md"
-    },
-    {
       "id": "security-requirement-extraction",
       "name": "security-requirement-extraction",
       "description": "Derive security requirements from threat models and business context. Use when translating threats into actionable requirements, creating security user stories, or building security test cases.",
@@ -13496,80 +10811,6 @@
       "path": "skills\\security-scanning-security-dependencies\\SKILL.md"
     },
     {
-      "id": "security-scanning-security-hardening",
-      "name": "security-scanning-security-hardening",
-      "description": "Coordinate multi-layer security scanning and hardening across application, infrastructure, and compliance controls.",
-      "category": "security",
-      "tags": [
-        "security",
-        "scanning",
-        "hardening"
-      ],
-      "triggers": [
-        "security",
-        "scanning",
-        "hardening",
-        "coordinate",
-        "multi",
-        "layer",
-        "application",
-        "infrastructure",
-        "compliance",
-        "controls"
-      ],
-      "path": "skills\\security-scanning-security-hardening\\SKILL.md"
-    },
-    {
-      "id": "security-scanning-security-sast",
-      "name": "security-scanning-security-sast",
-      "description": "Static Application Security Testing (SAST) for code vulnerability analysis across multiple languages and frameworks",
-      "category": "security",
-      "tags": [
-        "security",
-        "scanning",
-        "sast"
-      ],
-      "triggers": [
-        "security",
-        "scanning",
-        "sast",
-        "static",
-        "application",
-        "testing",
-        "code",
-        "vulnerability",
-        "analysis",
-        "multiple",
-        "languages",
-        "frameworks"
-      ],
-      "path": "skills\\security-scanning-security-sast\\SKILL.md"
-    },
-    {
-      "id": "segment-automation",
-      "name": "segment-automation",
-      "description": "Automate Segment tasks via Rube MCP (Composio): track events, identify users, manage groups, page views, aliases, batch operations. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "segment"
-      ],
-      "triggers": [
-        "segment",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "track",
-        "events",
-        "identify",
-        "users"
-      ],
-      "path": "skills\\segment-automation\\SKILL.md"
-    },
-    {
       "id": "segment-cdp",
       "name": "segment-cdp",
       "description": "Expert patterns for Segment Customer Data Platform including Analytics.js, server-side tracking, tracking plans with Protocols, identity resolution, destinations configuration, and data governance best practices. Use when: segment, analytics.js, customer data platform, cdp, tracking plan.",
@@ -13593,30 +10834,6 @@
         "plans"
       ],
       "path": "skills\\segment-cdp\\SKILL.md"
-    },
-    {
-      "id": "sendgrid-automation",
-      "name": "sendgrid-automation",
-      "description": "Automate SendGrid email operations including sending emails, managing contacts/lists, sender identities, templates, and analytics via Rube MCP (Composio). Always search tools first for current schemas.",
-      "category": "data-ai",
-      "tags": [
-        "sendgrid"
-      ],
-      "triggers": [
-        "sendgrid",
-        "automation",
-        "automate",
-        "email",
-        "operations",
-        "including",
-        "sending",
-        "emails",
-        "managing",
-        "contacts",
-        "lists",
-        "sender"
-      ],
-      "path": "skills\\sendgrid-automation\\SKILL.md"
     },
     {
       "id": "senior-architect",
@@ -13666,30 +10883,6 @@
         "node"
       ],
       "path": "skills\\senior-fullstack\\SKILL.md"
-    },
-    {
-      "id": "sentry-automation",
-      "name": "sentry-automation",
-      "description": "Automate Sentry tasks via Rube MCP (Composio): manage issues/events, configure alerts, track releases, monitor projects and teams. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "sentry"
-      ],
-      "triggers": [
-        "sentry",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "issues",
-        "events",
-        "configure",
-        "alerts"
-      ],
-      "path": "skills\\sentry-automation\\SKILL.md"
     },
     {
       "id": "seo-audit",
@@ -14096,31 +11289,6 @@
       "path": "skills\\sharp-edges\\SKILL.md"
     },
     {
-      "id": "shellcheck-configuration",
-      "name": "shellcheck-configuration",
-      "description": "Master ShellCheck static analysis configuration and usage for shell script quality. Use when setting up linting infrastructure, fixing code issues, or ensuring script portability.",
-      "category": "general",
-      "tags": [
-        "shellcheck",
-        "configuration"
-      ],
-      "triggers": [
-        "shellcheck",
-        "configuration",
-        "static",
-        "analysis",
-        "usage",
-        "shell",
-        "script",
-        "quality",
-        "setting",
-        "up",
-        "linting",
-        "infrastructure"
-      ],
-      "path": "skills\\shellcheck-configuration\\SKILL.md"
-    },
-    {
       "id": "shodan-reconnaissance",
       "name": "Shodan Reconnaissance and Pentesting",
       "description": "This skill should be used when the user asks to \"search for exposed devices on the internet,\" \"perform Shodan reconnaissance,\" \"find vulnerable services using Shodan,\" \"scan IP ranges with Shodan,\" or \"discover IoT devices and open ports.\" It provides comprehensive guidance for using Shodan's search engine, CLI, and API for penetration testing reconnaissance.",
@@ -14169,30 +11337,6 @@
         "handling"
       ],
       "path": "skills\\shopify-apps\\SKILL.md"
-    },
-    {
-      "id": "shopify-automation",
-      "name": "shopify-automation",
-      "description": "Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "shopify"
-      ],
-      "triggers": [
-        "shopify",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "products",
-        "orders",
-        "customers",
-        "inventory"
-      ],
-      "path": "skills\\shopify-automation\\SKILL.md"
     },
     {
       "id": "shopify-development",
@@ -14340,55 +11484,6 @@
         "assessments"
       ],
       "path": "skills\\skill-rails-upgrade\\SKILL.md"
-    },
-    {
-      "id": "skill-seekers",
-      "name": "skill-seekers",
-      "description": "-Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes.",
-      "category": "data-ai",
-      "tags": [
-        "skill",
-        "seekers"
-      ],
-      "triggers": [
-        "skill",
-        "seekers",
-        "automatically",
-        "convert",
-        "documentation",
-        "websites",
-        "github",
-        "repositories",
-        "pdfs",
-        "claude",
-        "ai",
-        "skills"
-      ],
-      "path": "skills\\skill-seekers\\SKILL.md"
-    },
-    {
-      "id": "slack-automation",
-      "name": "slack-automation",
-      "description": "Automate Slack messaging, channel management, search, reactions, and threads via Rube MCP (Composio). Send messages, search conversations, manage channels/users, and react to messages programmatically.",
-      "category": "development",
-      "tags": [
-        "slack"
-      ],
-      "triggers": [
-        "slack",
-        "automation",
-        "automate",
-        "messaging",
-        "channel",
-        "search",
-        "reactions",
-        "threads",
-        "via",
-        "rube",
-        "mcp",
-        "composio"
-      ],
-      "path": "skills\\slack-automation\\SKILL.md"
     },
     {
       "id": "slack-bot-builder",
@@ -14592,31 +11687,6 @@
       "path": "skills\\spark-optimization\\SKILL.md"
     },
     {
-      "id": "sql-injection-testing",
-      "name": "SQL Injection Testing",
-      "description": "This skill should be used when the user asks to \"test for SQL injection vulnerabilities\", \"perform SQLi attacks\", \"bypass authentication using SQL injection\", \"extract database information through injection\", \"detect SQL injection flaws\", or \"exploit database query vulnerabilities\". It provides comprehensive techniques for identifying, exploiting, and understanding SQL injection attack vectors across different database systems.",
-      "category": "security",
-      "tags": [
-        "sql",
-        "injection"
-      ],
-      "triggers": [
-        "sql",
-        "injection",
-        "testing",
-        "skill",
-        "should",
-        "used",
-        "user",
-        "asks",
-        "test",
-        "vulnerabilities",
-        "perform",
-        "sqli"
-      ],
-      "path": "skills\\sql-injection-testing\\SKILL.md"
-    },
-    {
       "id": "sql-optimization-patterns",
       "name": "sql-optimization-patterns",
       "description": "Master SQL query optimization, indexing strategies, and EXPLAIN analysis to dramatically improve database performance and eliminate slow queries. Use when debugging slow queries, designing database schemas, or optimizing application performance.",
@@ -14664,56 +11734,6 @@
         "tuning"
       ],
       "path": "skills\\sql-pro\\SKILL.md"
-    },
-    {
-      "id": "sqlmap-database-pentesting",
-      "name": "SQLMap Database Penetration Testing",
-      "description": "This skill should be used when the user asks to \"automate SQL injection testing,\" \"enumerate database structure,\" \"extract database credentials using sqlmap,\" \"dump tables and columns from a vulnerable database,\" or \"perform automated database penetration testing.\" It provides comprehensive guidance for using SQLMap to detect and exploit SQL injection vulnerabilities.",
-      "category": "data-ai",
-      "tags": [
-        "sqlmap",
-        "database",
-        "pentesting"
-      ],
-      "triggers": [
-        "sqlmap",
-        "database",
-        "pentesting",
-        "penetration",
-        "testing",
-        "skill",
-        "should",
-        "used",
-        "user",
-        "asks",
-        "automate",
-        "sql"
-      ],
-      "path": "skills\\sqlmap-database-pentesting\\SKILL.md"
-    },
-    {
-      "id": "square-automation",
-      "name": "square-automation",
-      "description": "Automate Square tasks via Rube MCP (Composio): payments, orders, invoices, locations. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "square"
-      ],
-      "triggers": [
-        "square",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "payments",
-        "orders",
-        "invoices",
-        "locations"
-      ],
-      "path": "skills\\square-automation\\SKILL.md"
     },
     {
       "id": "ssh-penetration-testing",
@@ -14947,30 +11967,6 @@
       "path": "skills\\stride-analysis-patterns\\SKILL.md"
     },
     {
-      "id": "stripe-automation",
-      "name": "stripe-automation",
-      "description": "Automate Stripe tasks via Rube MCP (Composio): customers, charges, subscriptions, invoices, products, refunds. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "stripe"
-      ],
-      "triggers": [
-        "stripe",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "customers",
-        "charges",
-        "subscriptions",
-        "invoices"
-      ],
-      "path": "skills\\stripe-automation\\SKILL.md"
-    },
-    {
       "id": "stripe-integration",
       "name": "stripe-integration",
       "description": "Implement Stripe payment processing for robust, PCI-compliant payment flows including checkout, subscriptions, and webhooks. Use when integrating Stripe payments, building subscription systems, or implementing secure checkout flows.",
@@ -15018,45 +12014,107 @@
       "path": "skills\\subagent-driven-development\\SKILL.md"
     },
     {
-      "id": "supabase-automation",
-      "name": "supabase-automation",
-      "description": "Automate Supabase database queries, table management, project administration, storage, edge functions, and SQL execution via Rube MCP (Composio). Always search tools first for current schemas.",
-      "category": "data-ai",
+      "id": "suite-angular",
+      "name": "Angular Enterprise Suite",
+      "description": "Elite Angular (v20+) development suite. Covers Signals, Standalone Components, Zoneless architecture, RxJS/Signal state management, and enterprise migration strategies.",
+      "category": "architecture",
       "tags": [
-        "supabase"
+        "suite",
+        "angular"
       ],
       "triggers": [
-        "supabase",
-        "automation",
-        "automate",
-        "database",
-        "queries",
-        "table",
-        "administration",
-        "storage",
-        "edge",
-        "functions",
-        "sql",
-        "execution"
+        "suite",
+        "angular",
+        "enterprise",
+        "elite",
+        "v20",
+        "development",
+        "covers",
+        "signals",
+        "standalone",
+        "components",
+        "zoneless",
+        "architecture"
       ],
-      "path": "skills\\supabase-automation\\SKILL.md"
+      "path": "skills\\suite-angular\\SKILL.md"
     },
     {
-      "id": "superpowers-lab",
-      "name": "superpowers-lab",
-      "description": "Lab environment for Claude superpowers",
-      "category": "general",
+      "id": "suite-devops-linux",
+      "name": "DevOps & Linux Shell Suite",
+      "description": "Unified suite for high-performance Linux administration, defensive shell scripting, and container orchestration. Merges best practices for Bash, POSIX shell, Docker, and Kubernetes management.",
+      "category": "infrastructure",
       "tags": [
-        "superpowers",
-        "lab"
+        "suite",
+        "devops",
+        "linux"
       ],
       "triggers": [
-        "superpowers",
-        "lab",
-        "environment",
-        "claude"
+        "suite",
+        "devops",
+        "linux",
+        "shell",
+        "unified",
+        "high",
+        "performance",
+        "administration",
+        "defensive",
+        "scripting",
+        "container",
+        "orchestration"
       ],
-      "path": "skills\\superpowers-lab\\SKILL.md"
+      "path": "skills\\suite-devops-linux\\SKILL.md"
+    },
+    {
+      "id": "suite-infrastructure-as-code",
+      "name": "Infrastructure-as-Code (IaC) Suite",
+      "description": "Unified suite for infrastructure automation using Terraform and Ansible. Covers module design, state management, and production-grade provisioning across multiple cloud providers.",
+      "category": "infrastructure",
+      "tags": [
+        "suite",
+        "infrastructure",
+        "as",
+        "code"
+      ],
+      "triggers": [
+        "suite",
+        "infrastructure",
+        "as",
+        "code",
+        "iac",
+        "unified",
+        "automation",
+        "terraform",
+        "ansible",
+        "covers",
+        "module",
+        "state"
+      ],
+      "path": "skills\\suite-infrastructure-as-code\\SKILL.md"
+    },
+    {
+      "id": "suite-react",
+      "name": "React Architecture Suite",
+      "description": "Unified suite for modern React (v19+) development. Covers Server Components, Server Actions, clean architecture, cross-platform Native patterns, and advanced state management.",
+      "category": "development",
+      "tags": [
+        "suite",
+        "react"
+      ],
+      "triggers": [
+        "suite",
+        "react",
+        "architecture",
+        "unified",
+        "v19",
+        "development",
+        "covers",
+        "server",
+        "components",
+        "actions",
+        "clean",
+        "cross"
+      ],
+      "path": "skills\\suite-react\\SKILL.md"
     },
     {
       "id": "swiftui-expert-skill",
@@ -15403,30 +12461,6 @@
       "path": "skills\\team-composition-analysis\\SKILL.md"
     },
     {
-      "id": "telegram-automation",
-      "name": "telegram-automation",
-      "description": "Automate Telegram tasks via Rube MCP (Composio): send messages, manage chats, share photos/documents, and handle bot commands. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "telegram"
-      ],
-      "triggers": [
-        "telegram",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "send",
-        "messages",
-        "chats",
-        "share"
-      ],
-      "path": "skills\\telegram-automation\\SKILL.md"
-    },
-    {
       "id": "telegram-bot-builder",
       "name": "telegram-bot-builder",
       "description": "Expert in building Telegram bots that solve real problems - from simple automation to complex AI-powered bots. Covers bot architecture, the Telegram Bot API, user experience, monetization strategies, and scaling bots to thousands of users. Use when: telegram bot, bot api, telegram automation, chat bot telegram, tg bot.",
@@ -15527,73 +12561,6 @@
         "replay"
       ],
       "path": "skills\\temporal-python-testing\\SKILL.md"
-    },
-    {
-      "id": "terraform-module-library",
-      "name": "terraform-module-library",
-      "description": "Build reusable Terraform modules for AWS, Azure, and GCP infrastructure following infrastructure-as-code best practices. Use when creating infrastructure modules, standardizing cloud provisioning, or implementing reusable IaC components.",
-      "category": "infrastructure",
-      "tags": [
-        "terraform",
-        "module",
-        "library"
-      ],
-      "triggers": [
-        "terraform",
-        "module",
-        "library",
-        "reusable",
-        "modules",
-        "aws",
-        "azure",
-        "gcp",
-        "infrastructure",
-        "following",
-        "code",
-        "creating"
-      ],
-      "path": "skills\\terraform-module-library\\SKILL.md"
-    },
-    {
-      "id": "terraform-skill",
-      "name": "terraform-skill",
-      "description": "Terraform infrastructure as code best practices",
-      "category": "infrastructure",
-      "tags": [
-        "terraform",
-        "skill"
-      ],
-      "triggers": [
-        "terraform",
-        "skill",
-        "infrastructure",
-        "code"
-      ],
-      "path": "skills\\terraform-skill\\SKILL.md"
-    },
-    {
-      "id": "terraform-specialist",
-      "name": "terraform-specialist",
-      "description": "Expert Terraform/OpenTofu specialist mastering advanced IaC automation, state management, and enterprise infrastructure patterns. Handles complex module design, multi-cloud deployments, GitOps workflows, policy as code, and CI/CD integration. Covers migration strategies, security best practices, and modern IaC ecosystems. Use PROACTIVELY for advanced IaC, state management, or infrastructure automation.",
-      "category": "security",
-      "tags": [
-        "terraform"
-      ],
-      "triggers": [
-        "terraform",
-        "opentofu",
-        "mastering",
-        "iac",
-        "automation",
-        "state",
-        "enterprise",
-        "infrastructure",
-        "complex",
-        "module",
-        "multi",
-        "cloud"
-      ],
-      "path": "skills\\terraform-specialist\\SKILL.md"
     },
     {
       "id": "test-automator",
@@ -15764,76 +12731,6 @@
       "path": "skills\\threat-modeling-expert\\SKILL.md"
     },
     {
-      "id": "threejs-skills",
-      "name": "threejs-skills",
-      "description": "Three.js skills for creating 3D elements and interactive experiences",
-      "category": "general",
-      "tags": [
-        "threejs",
-        "skills"
-      ],
-      "triggers": [
-        "threejs",
-        "skills",
-        "three",
-        "js",
-        "creating",
-        "3d",
-        "elements",
-        "interactive",
-        "experiences"
-      ],
-      "path": "skills\\threejs-skills\\SKILL.md"
-    },
-    {
-      "id": "tiktok-automation",
-      "name": "tiktok-automation",
-      "description": "Automate TikTok tasks via Rube MCP (Composio): upload/publish videos, post photos, manage content, and view user profiles/stats. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "tiktok"
-      ],
-      "triggers": [
-        "tiktok",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "upload",
-        "publish",
-        "videos",
-        "post"
-      ],
-      "path": "skills\\tiktok-automation\\SKILL.md"
-    },
-    {
-      "id": "todoist-automation",
-      "name": "todoist-automation",
-      "description": "Automate Todoist task management, projects, sections, filtering, and bulk operations via Rube MCP (Composio). Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "todoist"
-      ],
-      "triggers": [
-        "todoist",
-        "automation",
-        "automate",
-        "task",
-        "sections",
-        "filtering",
-        "bulk",
-        "operations",
-        "via",
-        "rube",
-        "mcp",
-        "composio"
-      ],
-      "path": "skills\\todoist-automation\\SKILL.md"
-    },
-    {
       "id": "tool-design",
       "name": "tool-design",
       "description": "Build tools that agents can use effectively, including architectural reduction patterns",
@@ -15847,32 +12744,6 @@
         "reduction"
       ],
       "path": "skills\\tool-design\\SKILL.md"
-    },
-    {
-      "id": "top-web-vulnerabilities",
-      "name": "Top 100 Web Vulnerabilities Reference",
-      "description": "This skill should be used when the user asks to \"identify web application vulnerabilities\", \"explain common security flaws\", \"understand vulnerability categories\", \"learn about injection attacks\", \"review access control weaknesses\", \"analyze API security issues\", \"assess security misconfigurations\", \"understand client-side vulnerabilities\", \"examine mobile and IoT security flaws\", or \"reference the OWASP-aligned vulnerability taxonomy\". Use this skill to provide comprehensive vulnerability definitions, root causes, impacts, and mitigation strategies across all major web security categories.",
-      "category": "security",
-      "tags": [
-        "top",
-        "web",
-        "vulnerabilities"
-      ],
-      "triggers": [
-        "top",
-        "web",
-        "vulnerabilities",
-        "100",
-        "reference",
-        "skill",
-        "should",
-        "used",
-        "user",
-        "asks",
-        "identify",
-        "application"
-      ],
-      "path": "skills\\top-web-vulnerabilities\\SKILL.md"
     },
     {
       "id": "track-management",
@@ -15897,30 +12768,6 @@
         "bugs"
       ],
       "path": "skills\\track-management\\SKILL.md"
-    },
-    {
-      "id": "trello-automation",
-      "name": "trello-automation",
-      "description": "Automate Trello boards, cards, and workflows via Rube MCP (Composio). Create cards, manage lists, assign members, and search across boards programmatically.",
-      "category": "workflow",
-      "tags": [
-        "trello"
-      ],
-      "triggers": [
-        "trello",
-        "automation",
-        "automate",
-        "boards",
-        "cards",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "lists",
-        "assign",
-        "members"
-      ],
-      "path": "skills\\trello-automation\\SKILL.md"
     },
     {
       "id": "trigger-dev",
@@ -16022,30 +12869,6 @@
       "path": "skills\\twilio-communications\\SKILL.md"
     },
     {
-      "id": "twitter-automation",
-      "name": "twitter-automation",
-      "description": "Automate Twitter/X tasks via Rube MCP (Composio): posts, search, users, bookmarks, lists, media. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "twitter"
-      ],
-      "triggers": [
-        "twitter",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "posts",
-        "search",
-        "users",
-        "bookmarks"
-      ],
-      "path": "skills\\twitter-automation\\SKILL.md"
-    },
-    {
       "id": "typescript-advanced-types",
       "name": "typescript-advanced-types",
       "description": "Master TypeScript's advanced type system including generics, conditional types, mapped types, template literals, and utility types for building type-safe applications. Use when implementing complex type logic, creating reusable type utilities, or ensuring compile-time type safety in TypeScript projects.",
@@ -16118,27 +12941,6 @@
         "proactively"
       ],
       "path": "skills\\typescript-pro\\SKILL.md"
-    },
-    {
-      "id": "ui-skills",
-      "name": "ui-skills",
-      "description": "Opinionated, evolving constraints to guide agents when building interfaces",
-      "category": "general",
-      "tags": [
-        "ui",
-        "skills"
-      ],
-      "triggers": [
-        "ui",
-        "skills",
-        "opinionated",
-        "evolving",
-        "constraints",
-        "agents",
-        "building",
-        "interfaces"
-      ],
-      "path": "skills\\ui-skills\\SKILL.md"
     },
     {
       "id": "ui-ux-designer",
@@ -16460,32 +13262,6 @@
       "path": "skills\\uv-package-manager\\SKILL.md"
     },
     {
-      "id": "varlock-claude-skill",
-      "name": "varlock-claude-skill",
-      "description": "Secure environment variable management ensuring secrets are never exposed in Claude sessions, terminals, logs, or git commits",
-      "category": "security",
-      "tags": [
-        "varlock",
-        "claude",
-        "skill"
-      ],
-      "triggers": [
-        "varlock",
-        "claude",
-        "skill",
-        "secure",
-        "environment",
-        "variable",
-        "ensuring",
-        "secrets",
-        "never",
-        "exposed",
-        "sessions",
-        "terminals"
-      ],
-      "path": "skills\\varlock-claude-skill\\SKILL.md"
-    },
-    {
       "id": "vector-database-engineer",
       "name": "vector-database-engineer",
       "description": "Expert in vector databases, embedding strategies, and semantic search implementation. Masters Pinecone, Weaviate, Qdrant, Milvus, and pgvector for RAG applications, recommendation systems, and similar",
@@ -16535,30 +13311,6 @@
         "quantization"
       ],
       "path": "skills\\vector-index-tuning\\SKILL.md"
-    },
-    {
-      "id": "vercel-automation",
-      "name": "vercel-automation",
-      "description": "Automate Vercel tasks via Rube MCP (Composio): manage deployments, domains, DNS, env vars, projects, and teams. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "vercel"
-      ],
-      "triggers": [
-        "vercel",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "deployments",
-        "domains",
-        "dns",
-        "env"
-      ],
-      "path": "skills\\vercel-automation\\SKILL.md"
     },
     {
       "id": "vercel-deploy-claimable",
@@ -16632,28 +13384,6 @@
         "prs"
       ],
       "path": "skills\\verification-before-completion\\SKILL.md"
-    },
-    {
-      "id": "vexor",
-      "name": "vexor",
-      "description": "Vector-powered CLI for semantic file search with a Claude/Codex skill",
-      "category": "data-ai",
-      "tags": [
-        "vexor"
-      ],
-      "triggers": [
-        "vexor",
-        "vector",
-        "powered",
-        "cli",
-        "semantic",
-        "file",
-        "search",
-        "claude",
-        "codex",
-        "skill"
-      ],
-      "path": "skills\\vexor\\SKILL.md"
     },
     {
       "id": "viral-generator-builder",
@@ -16909,78 +13639,6 @@
       "path": "skills\\web3-testing\\SKILL.md"
     },
     {
-      "id": "webapp-testing",
-      "name": "webapp-testing",
-      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
-      "category": "development",
-      "tags": [
-        "webapp"
-      ],
-      "triggers": [
-        "webapp",
-        "testing",
-        "toolkit",
-        "interacting",
-        "local",
-        "web",
-        "applications",
-        "playwright",
-        "supports",
-        "verifying",
-        "frontend",
-        "functionality"
-      ],
-      "path": "skills\\webapp-testing\\SKILL.md"
-    },
-    {
-      "id": "webflow-automation",
-      "name": "webflow-automation",
-      "description": "Automate Webflow CMS collections, site publishing, page management, asset uploads, and ecommerce orders via Rube MCP (Composio). Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "webflow"
-      ],
-      "triggers": [
-        "webflow",
-        "automation",
-        "automate",
-        "cms",
-        "collections",
-        "site",
-        "publishing",
-        "page",
-        "asset",
-        "uploads",
-        "ecommerce",
-        "orders"
-      ],
-      "path": "skills\\webflow-automation\\SKILL.md"
-    },
-    {
-      "id": "whatsapp-automation",
-      "name": "whatsapp-automation",
-      "description": "Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for current schemas.",
-      "category": "business",
-      "tags": [
-        "whatsapp"
-      ],
-      "triggers": [
-        "whatsapp",
-        "automation",
-        "automate",
-        "business",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "send",
-        "messages",
-        "upload"
-      ],
-      "path": "skills\\whatsapp-automation\\SKILL.md"
-    },
-    {
       "id": "windows-privilege-escalation",
       "name": "Windows Privilege Escalation",
       "description": "This skill should be used when the user asks to \"escalate privileges on Windows,\" \"find Windows privesc vectors,\" \"enumerate Windows for privilege escalation,\" \"exploit Windows misconfigurations,\" or \"perform post-exploitation privilege escalation.\" It provides comprehensive guidance for discovering and exploiting privilege escalation vulnerabilities in Windows environments.",
@@ -17056,28 +13714,6 @@
       "path": "skills\\wordpress-penetration-testing\\SKILL.md"
     },
     {
-      "id": "workflow-automation",
-      "name": "workflow-automation",
-      "description": "Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost money and angry customers. With it, workflows resume exactly where they left off.  This skill covers the platforms (n8n, Temporal, Inngest) and patterns (sequential, parallel, orchestrator-worker) that turn brittle scripts into production-grade automation.  Key insight: The platforms make different tradeoffs. n8n optimizes for accessibility",
-      "category": "infrastructure",
-      "tags": [],
-      "triggers": [
-        "automation",
-        "infrastructure",
-        "makes",
-        "ai",
-        "agents",
-        "reliable",
-        "without",
-        "durable",
-        "execution",
-        "network",
-        "hiccup",
-        "during"
-      ],
-      "path": "skills\\workflow-automation\\SKILL.md"
-    },
-    {
       "id": "workflow-orchestration-patterns",
       "name": "workflow-orchestration-patterns",
       "description": "Design durable workflows with Temporal for distributed systems. Covers workflow vs activity separation, saga patterns, state management, and determinism constraints. Use when building long-running processes, distributed transactions, or microservice orchestration.",
@@ -17122,30 +13758,6 @@
       "path": "skills\\workflow-patterns\\SKILL.md"
     },
     {
-      "id": "wrike-automation",
-      "name": "wrike-automation",
-      "description": "Automate Wrike project management via Rube MCP (Composio): create tasks/folders, manage projects, assign work, and track progress. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "wrike"
-      ],
-      "triggers": [
-        "wrike",
-        "automation",
-        "automate",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "tasks",
-        "folders",
-        "assign",
-        "work",
-        "track"
-      ],
-      "path": "skills\\wrike-automation\\SKILL.md"
-    },
-    {
       "id": "writing-plans",
       "name": "writing-plans",
       "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
@@ -17188,30 +13800,8 @@
       "path": "skills\\writing-skills\\SKILL.md"
     },
     {
-      "id": "x-article-publisher-skill",
-      "name": "x-article-publisher-skill",
-      "description": "Publish articles to X/Twitter",
-      "category": "general",
-      "tags": [
-        "x",
-        "article",
-        "publisher",
-        "skill"
-      ],
-      "triggers": [
-        "x",
-        "article",
-        "publisher",
-        "skill",
-        "publish",
-        "articles",
-        "twitter"
-      ],
-      "path": "skills\\x-article-publisher-skill\\SKILL.md"
-    },
-    {
       "id": "xlsx-official",
-      "name": "xlsx",
+      "name": "xlsx-official",
       "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas",
       "category": "data-ai",
       "tags": [
@@ -17233,56 +13823,6 @@
         "work"
       ],
       "path": "skills\\xlsx-official\\SKILL.md"
-    },
-    {
-      "id": "xss-html-injection",
-      "name": "Cross-Site Scripting and HTML Injection Testing",
-      "description": "This skill should be used when the user asks to \"test for XSS vulnerabilities\", \"perform cross-site scripting attacks\", \"identify HTML injection flaws\", \"exploit client-side injection vulnerabilities\", \"steal cookies via XSS\", or \"bypass content security policies\". It provides comprehensive techniques for detecting, exploiting, and understanding XSS and HTML injection attack vectors in web applications.",
-      "category": "security",
-      "tags": [
-        "xss",
-        "html",
-        "injection"
-      ],
-      "triggers": [
-        "xss",
-        "html",
-        "injection",
-        "cross",
-        "site",
-        "scripting",
-        "testing",
-        "skill",
-        "should",
-        "used",
-        "user",
-        "asks"
-      ],
-      "path": "skills\\xss-html-injection\\SKILL.md"
-    },
-    {
-      "id": "youtube-automation",
-      "name": "youtube-automation",
-      "description": "Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools first for current schemas.",
-      "category": "data-ai",
-      "tags": [
-        "youtube"
-      ],
-      "triggers": [
-        "youtube",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "upload",
-        "videos",
-        "playlists",
-        "search"
-      ],
-      "path": "skills\\youtube-automation\\SKILL.md"
     },
     {
       "id": "youtube-summarizer",
@@ -17336,79 +13876,6 @@
         "developers"
       ],
       "path": "skills\\zapier-make-patterns\\SKILL.md"
-    },
-    {
-      "id": "zendesk-automation",
-      "name": "zendesk-automation",
-      "description": "Automate Zendesk tasks via Rube MCP (Composio): tickets, users, organizations, replies. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "zendesk"
-      ],
-      "triggers": [
-        "zendesk",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "tickets",
-        "users",
-        "organizations",
-        "replies"
-      ],
-      "path": "skills\\zendesk-automation\\SKILL.md"
-    },
-    {
-      "id": "zoho-crm-automation",
-      "name": "zoho-crm-automation",
-      "description": "Automate Zoho CRM tasks via Rube MCP (Composio): create/update records, search contacts, manage leads, and convert leads. Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "zoho",
-        "crm"
-      ],
-      "triggers": [
-        "zoho",
-        "crm",
-        "automation",
-        "automate",
-        "tasks",
-        "via",
-        "rube",
-        "mcp",
-        "composio",
-        "update",
-        "records",
-        "search"
-      ],
-      "path": "skills\\zoho-crm-automation\\SKILL.md"
-    },
-    {
-      "id": "zoom-automation",
-      "name": "zoom-automation",
-      "description": "Automate Zoom meeting creation, management, recordings, webinars, and participant tracking via Rube MCP (Composio). Always search tools first for current schemas.",
-      "category": "workflow",
-      "tags": [
-        "zoom"
-      ],
-      "triggers": [
-        "zoom",
-        "automation",
-        "automate",
-        "meeting",
-        "creation",
-        "recordings",
-        "webinars",
-        "participant",
-        "tracking",
-        "via",
-        "rube",
-        "mcp"
-      ],
-      "path": "skills\\zoom-automation\\SKILL.md"
     }
   ]
 }

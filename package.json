@@ -10,6 +10,7 @@
     "readme": "node scripts/update-readme.js",
     "chain": "npm run validate && npm run index && npm run readme",
     "catalog": "node scripts/build-catalog.js",
+    "audit:similarity": "node scripts/audit-similarity.js",
     "build": "npm run chain && npm run catalog",
     "test": "node scripts/tests/validate_skills_headings.test.js"
   },

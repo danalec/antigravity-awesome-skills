@@ -16,27 +16,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.10"
-
-      - name: Install dependencies
-        run: |
-          pip install pyyaml
-
-      - name: 🔍 Validate Skills (Soft Mode)
-        run: |
-          python3 scripts/validate_skills.py
-
-      - name: 🏗️ Generate Index
-        run: |
-          python3 scripts/generate_index.py
-
-      - name: 📝 Update README
-        run: |
-          python3 scripts/update_readme.py
-
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
@@ -44,6 +23,15 @@ jobs:
 
       - name: Install npm dependencies
         run: npm ci
+
+      - name: 🔍 Validate Skills (Soft Mode)
+        run: npm run validate
+
+      - name: 🏗️ Generate Index
+        run: npm run index
+
+      - name: 📝 Update README
+        run: npm run readme
 
       - name: Audit npm dependencies
         run: npm audit --audit-level=high

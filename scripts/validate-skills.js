@@ -19,12 +19,17 @@ const WHEN_TO_USE_PATTERNS = [
 
 const SECURITY_DISCLAIMER_PATTERN = /AUTHORIZED USE ONLY/i;
 
+function hasUseSection(content) {
+    return WHEN_TO_USE_PATTERNS.some(p => p.test(content));
+}
+
 function runValidation(strict = false) {
     console.log(`🔍 Validating skills in: ${SKILLS_DIR}`);
     console.log(`⚙️  Mode: ${strict ? 'STRICT (CI)' : 'Standard (Dev)'}`);
 
     const errors = [];
     const warnings = [];
+    const infos = [];
     const skillIds = listSkillIds(SKILLS_DIR);
 
     for (const skillId of skillIds) {
@@ -51,7 +56,7 @@ function runValidation(strict = false) {
         if (!metadata.name) {
             errors.push(`❌ ${skillId}: Missing 'name' in frontmatter`);
         } else if (metadata.name !== skillId) {
-            warnings.push(`⚠️  ${skillId}: Name '${metadata.name}' does not match folder name '${skillId}'`);
+            infos.push(`ℹ️  ${skillId}: Name '${metadata.name}' does not match folder name '${skillId}'`);
         }
 
         if (!metadata.description) {
@@ -93,6 +98,11 @@ function runValidation(strict = false) {
     // Reporting
     console.log(`\n📊 Checked ${skillIds.length} skills.`);
 
+    if (infos.length) {
+        console.log(`\nℹ️  Found ${infos.length} Info:`);
+        infos.forEach(i => console.log(i));
+    }
+
     if (warnings.length) {
         console.log(`\n⚠️  Found ${warnings.length} Warnings:`);
         warnings.forEach(w => console.log(w));
@@ -114,3 +124,5 @@ function runValidation(strict = false) {
 
 const isStrict = process.argv.includes('--strict');
 runValidation(isStrict);
+
+module.exports = { hasUseSection };
