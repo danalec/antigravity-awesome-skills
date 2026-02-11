@@ -1,14 +1,16 @@
-# Antigravity Awesome Skills
+# SKILLS.md
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Trae IDE](https://img.shields.io/badge/Trae%20IDE-Collaborate-blue)](https://trae.ai)
+[![Antigravity](https://img.shields.io/badge/Antigravity-Agent%20OS-red)](https://github.com/sickn33/antigravity-awesome-skills)
+[![Qoder](https://img.shields.io/badge/Qoder-Agent-green)](https://qoder.ai)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Anthropic-purple)](https://claude.ai)
 [![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-Google-blue)](https://github.com/google-gemini/gemini-cli)
 [![Cursor](https://img.shields.io/badge/Cursor-AI%20IDE-orange)](https://cursor.sh)
-[![Copilot](https://img.shields.io/badge/GitHub%20Copilot-VSCode-lightblue)](https://github.com/features/copilot)
 
-**Antigravity Awesome Skills** is a library of **567+ standardized agentic skills** designed for AI coding assistants.
+**SKILLS.md** is a library of **550+ standardized agentic skills** designed for AI coding assistants.
 
-These markdown-based skills provide specific context, protocols, and best practices to AI agents (Claude Code, Gemini CLI, Cursor, etc.), enabling them to perform specialized tasks accurately.
+These markdown-based skills provide specific context, protocols, and best practices to AI agents (**Trae**, Antigravity, Qoder, Claude Code, Gemini CLI, etc.), enabling them to perform specialized tasks accurately.
 
 ## Table of Contents
 
@@ -29,7 +31,7 @@ AI models have broad general knowledge but lack specific context about specializ
 - **Step-by-step procedures** for execution.
 - **Best practices** and anti-patterns.
 
-This repository aggregates official skills from Anthropic, OpenAI, Google, and Vercel, alongside community-verified capabilities.
+This repository aggregates official skills from Anthropic, OpenAI, Google, and Vercel, alongside community-verified capabilities. It officially supports **Trae IDE** and **Antigravity** as first-class platforms for agentic workflows.
 
 ## New Features
 
@@ -61,13 +63,27 @@ npx antigravity-awesome-skills --claude
 ### Option B: git clone
 
 ```bash
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+git clone https://github.com/danalec/SKILLS.md.git .agent/skills
 ```
 
 **Note for Windows Users**: This repository uses symlinks. If you encounter issues, ensure Developer Mode is enabled or run Git as Administrator:
 ```bash
-git clone -c core.symlinks=true https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+git clone -c core.symlinks=true https://github.com/danalec/SKILLS.md.git .agent/skills
 ```
+
+### Option C: TRAE.AI Import
+
+Trae IDE has built-in skill management. You can import skills directly:
+
+1.  Clone the repository to a local directory:
+    ```bash
+    git clone https://github.com/danalec/SKILLS.md.git
+    ```
+2.  Open Trae IDE and go to **Settings → Rule & Skills → Skills**.
+3.  Click **Import** and select the `skills/` directory from the cloned repository.
+4.  Trae will automatically index the skills, making them available for auto-detection.
+
+Alternatively, you can install skills via the universal path (`~/.agent/skills`) and Trae will detect them if configured to watch that location.
 
 ## Usage
 
@@ -77,14 +93,31 @@ Once installed, invoke skills naturally in your AI assistant's prompt:
 
 > "Run **@lint-and-validate** on this file."
 
+### Trae IDE Examples
+
+Trae IDE provides seamless skill integration with automatic detection:
+
+- **Natural Language Invocation**: Simply type "Use @skill-name" in the chat (e.g., "Use @brainstorming to generate product ideas").
+- **Auto-Detection**: Trae agents automatically recognize when a skill is relevant to your request, even without explicit invocation.
+- **Skill Discovery**: Browse available skills in **Settings → Rule & Skills → Skills** to see descriptions and examples.
+
 ### Compatibility
 
 | Tool | Path | Invocation |
 | :--- | :--- | :--- |
+| **Trae IDE** | `Settings -> Rule & Skills` | `Use skill-name...` (or auto-detection) |
+| **Antigravity** | `.agent/skills/` | `Use skill...` |
+| **Qoder** | `.qoder/skills/` | `Use skill...` |
 | **Claude Code** | `.claude/skills/` | `>> /skill-name help me...` |
 | **Gemini CLI** | `.gemini/skills/` | `Use skill-name...` |
-| **Antigravity** | `.agent/skills/` | `Use skill...` |
 | **Cursor** | `.cursor/skills/` | `@skill-name` (in Chat) |
+
+### Trae IDE Support
+
+Trae natively supports **Agent Skills**. Import skills directly:
+1.  Go to **Settings** -> **Rule & Skills** -> **Skills**.
+2.  Click **Create** or Import from this repository.
+3.  Trae agents can automatically understand and apply these skills when relevant to your request.
 
 ## Quality Standards
 
@@ -105,6 +138,3 @@ We enforce a "No Slop" policy for all skills:
 
 MIT License. See [LICENSE](LICENSE) for details.
 
-## Credits
-
-Special thanks to the open-source community, including [Anthropic](https://github.com/anthropics/skills), [OpenAI](https://github.com/openai/skills), and [Vercel Labs](https://github.com/vercel-labs/agent-skills) for their official contributions.
