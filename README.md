@@ -59,6 +59,9 @@ npx antigravity-awesome-skills
 npx antigravity-awesome-skills --cursor
 npx antigravity-awesome-skills --claude
 npx antigravity-awesome-skills --trae
+npx antigravity-awesome-skills --qoder
+npx antigravity-awesome-skills --antigravity
+# --gemini is an alias for --antigravity
 ```
 
 ### Option B: git clone

@@ -18,7 +18,7 @@ function parseArgs() {
   let pathArg = null;
   let versionArg = null;
   let tagArg = null;
-  let cursor = false, claude = false, gemini = false, codex = false, trae = false;
+  let cursor = false, claude = false, gemini = false, codex = false, trae = false, qoder = false, antigravity = false;
 
   for (let i = 0; i < a.length; i++) {
     if (a[i] === '--help' || a[i] === '-h') return { help: true };
@@ -27,21 +27,25 @@ function parseArgs() {
     if (a[i] === '--tag' && a[i + 1]) { tagArg = a[++i]; continue; }
     if (a[i] === '--cursor') { cursor = true; continue; }
     if (a[i] === '--claude') { claude = true; continue; }
-    if (a[i] === '--gemini') { gemini = true; continue; }
+    if (a[i] === '--gemini') { gemini = true; antigravity = true; continue; }
     if (a[i] === '--codex') { codex = true; continue; }
     if (a[i] === '--trae') { trae = true; continue; }
+    if (a[i] === '--qoder') { qoder = true; continue; }
+    if (a[i] === '--antigravity') { antigravity = true; continue; }
     if (a[i] === 'install') continue;
   }
 
-  return { pathArg, versionArg, tagArg, cursor, claude, gemini, codex, trae };
+  return { pathArg, versionArg, tagArg, cursor, claude, gemini, codex, trae, qoder, antigravity };
 }
 
 function defaultDir(opts) {
   if (opts.pathArg) return resolveDir(opts.pathArg);
   if (opts.cursor) return path.join(HOME, '.cursor', 'skills');
   if (opts.claude) return path.join(HOME, '.claude', 'skills');
-  if (opts.gemini) return path.join(HOME, '.gemini', 'skills');
+  if (opts.gemini) return path.join(HOME, '.agent', 'skills');
   if (opts.trae) return path.join(HOME, '.trae', 'skills');
+  if (opts.qoder) return path.join(HOME, '.qoder', 'skills');
+  if (opts.antigravity) return path.join(HOME, '.agent', 'skills');
   if (opts.codex) {
     const codexHome = process.env.CODEX_HOME;
     if (codexHome) return path.join(codexHome, 'skills');
@@ -61,8 +65,10 @@ antigravity-awesome-skills — installer
 Options:
   --cursor    Install to ~/.cursor/skills (Cursor)
   --claude    Install to ~/.claude/skills (Claude Code)
-  --gemini    Install to ~/.gemini/skills (Gemini CLI)
+  --gemini    Install to ~/.agent/skills (Antigravity) (alias for --antigravity)
   --trae     Install to ~/.trae/skills (Trae IDE)
+  --qoder     Install to ~/.qoder/skills (Qoder)
+  --antigravity Install to ~/.agent/skills (Antigravity)
   --codex     Install to ~/.codex/skills (Codex CLI)
   --path <dir> Install to <dir> (default: ~/.agent/skills)
   --version <ver>  After clone, checkout tag v<ver> (e.g. 4.6.0 -> v4.6.0)
@@ -72,6 +78,8 @@ Examples:
   npx antigravity-awesome-skills
   npx antigravity-awesome-skills --cursor
   npx antigravity-awesome-skills --trae
+  npx antigravity-awesome-skills --qoder
+  npx antigravity-awesome-skills --antigravity
   npx antigravity-awesome-skills --version 4.6.0
   npx antigravity-awesome-skills --path ./my-skills
 `);
