@@ -4,7 +4,7 @@ const { spawnSync } = require('child_process');
 const path = require('path');
 const fs = require('fs');
 
-const REPO = 'https://github.com/sickn33/antigravity-awesome-skills.git';
+const REPO = 'https://github.com/danalec/SKILLS.md.git';
 const HOME = process.env.HOME || process.env.USERPROFILE || '';
 
 function resolveDir(p) {
@@ -18,7 +18,7 @@ function parseArgs() {
   let pathArg = null;
   let versionArg = null;
   let tagArg = null;
-  let cursor = false, claude = false, gemini = false, codex = false;
+  let cursor = false, claude = false, gemini = false, codex = false, trae = false;
 
   for (let i = 0; i < a.length; i++) {
     if (a[i] === '--help' || a[i] === '-h') return { help: true };
@@ -29,10 +29,11 @@ function parseArgs() {
     if (a[i] === '--claude') { claude = true; continue; }
     if (a[i] === '--gemini') { gemini = true; continue; }
     if (a[i] === '--codex') { codex = true; continue; }
+    if (a[i] === '--trae') { trae = true; continue; }
     if (a[i] === 'install') continue;
   }
 
-  return { pathArg, versionArg, tagArg, cursor, claude, gemini, codex };
+  return { pathArg, versionArg, tagArg, cursor, claude, gemini, codex, trae };
 }
 
 function defaultDir(opts) {
@@ -40,6 +41,7 @@ function defaultDir(opts) {
   if (opts.cursor) return path.join(HOME, '.cursor', 'skills');
   if (opts.claude) return path.join(HOME, '.claude', 'skills');
   if (opts.gemini) return path.join(HOME, '.gemini', 'skills');
+  if (opts.trae) return path.join(HOME, '.trae', 'skills');
   if (opts.codex) {
     const codexHome = process.env.CODEX_HOME;
     if (codexHome) return path.join(codexHome, 'skills');
@@ -60,6 +62,7 @@ Options:
   --cursor    Install to ~/.cursor/skills (Cursor)
   --claude    Install to ~/.claude/skills (Claude Code)
   --gemini    Install to ~/.gemini/skills (Gemini CLI)
+  --trae     Install to ~/.trae/skills (Trae IDE)
   --codex     Install to ~/.codex/skills (Codex CLI)
   --path <dir> Install to <dir> (default: ~/.agent/skills)
   --version <ver>  After clone, checkout tag v<ver> (e.g. 4.6.0 -> v4.6.0)
@@ -68,6 +71,7 @@ Options:
 Examples:
   npx antigravity-awesome-skills
   npx antigravity-awesome-skills --cursor
+  npx antigravity-awesome-skills --trae
   npx antigravity-awesome-skills --version 4.6.0
   npx antigravity-awesome-skills --path ./my-skills
 `);

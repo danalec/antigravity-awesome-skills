@@ -58,6 +58,7 @@ npx antigravity-awesome-skills
 # For specific tools
 npx antigravity-awesome-skills --cursor
 npx antigravity-awesome-skills --claude
+npx antigravity-awesome-skills --trae
 ```
 
 ### Option B: git clone
@@ -105,7 +106,7 @@ Trae IDE provides seamless skill integration with automatic detection:
 
 | Tool | Path | Invocation |
 | :--- | :--- | :--- |
-| **Trae IDE** | `Settings -> Rule & Skills` | `Use skill-name...` (or auto-detection) |
+| **TRAE.AI** | `Settings -> Rule & Skills` | `Use skill-name...` (or auto-detection) |
 | **Antigravity** | `.agent/skills/` | `Use skill...` |
 | **Qoder** | `.qoder/skills/` | `Use skill...` |
 | **Claude Code** | `.claude/skills/` | `>> /skill-name help me...` |
